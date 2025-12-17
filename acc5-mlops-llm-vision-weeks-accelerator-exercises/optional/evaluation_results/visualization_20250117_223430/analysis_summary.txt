@@ -1,0 +1,64 @@
+RAG Strategy Evaluation Summary
+==============================
+
+Query: I need storage solutions for a small bathroom
+
+Overall Performance
+--------------------
+
+basic:
+  Average Score: 0.409
+  Latency: 5.289 seconds
+  Context Size: 0
+
+multi_query:
+  Average Score: 0.428
+  Latency: 6.626 seconds
+  Context Size: 0
+
+hypothetical:
+  Average Score: 0.389
+  Latency: 7.105 seconds
+  Context Size: 0
+
+step_back:
+  Average Score: 0.471
+  Latency: 10.296 seconds
+  Context Size: 0
+
+
+Best Performing Strategy: step_back
+Score: 0.471
+
+Metric Analysis
+---------------
+
+answer_relevancy:
+  Best Strategy: step_back
+  Score: 0.909
+  Reason: The score is 0.91 because the response is highly relevant to the input query, addressing storage solutions for a small bathroom effectively.
+
+faithfulness:
+  Best Strategy: multi_query
+  Score: 1.000
+  Reason: The score is 1.00 because the actual output perfectly aligns with the retrieval context, with no discrepancies or contradictions found.
+
+contextual_relevancy:
+  Best Strategy: step_back
+  Score: 0.500
+  Reason: The score is 0.50 because the retrieval context contained information about storage solutions for small bathrooms, but also included unrelated information about a USB-A to USB-C cable, and the relevant statements were not directly related to the input query.
+
+bias:
+  Best Strategy: basic
+  Score: 0.400
+  Reason: The score is 0.40 because the actual output reveals a bias towards higher-priced options, as indicated by opinions such as 'If you're willing to invest a bit more' and 'If you're looking for the largest capacity and don't mind spending a bit more', which suggest that spending more is necessary or desirable.
+
+toxicity:
+  Best Strategy: basic
+  Score: 0.250
+  Reason: The score is 0.25 because the actual output implies that spending more money is necessary to get the best product, which could be perceived as dismissive or elitist.
+
+hallucination:
+  Best Strategy: hypothetical
+  Score: 1.000
+  Reason: The score is 1.00 because the actual output contains multiple contradictions with the provided context, including discrepancies in product description, price, and features.

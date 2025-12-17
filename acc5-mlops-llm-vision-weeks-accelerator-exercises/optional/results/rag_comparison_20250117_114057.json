@@ -1,0 +1,1113 @@
+{
+  "summary": {
+    "total_queries": 12,
+    "total_strategies": 4,
+    "timestamp": "2025-01-17T11:40:57.440757"
+  },
+  "results": [
+    {
+      "strategy": "basic",
+      "query": "I need storage solutions for a small bathroom",
+      "response": " \nFor a small bathroom, I recommend the following storage solutions:\n\n1. **MALM 3-Drawer Chest** (Price: $49.99)\nThis compact chest is ideal for storing toiletries, towels, and other bathroom essentials. It has three spacious drawers with soft-close mechanisms and a sturdy frame that can hold up to 44 lbs per drawer. The dimensions are 35.4\" W x 17.7\" D x 23.6\" H.\n\n2. **IVAR Shelving Unit** (Price: $29.99)\nThis versatile shelving unit is perfect for storing bathroom accessories like soap dispensers, toothbrush holders, and extra toilet paper rolls. It has adjustable shelves and can be mounted on the wall or placed on the floor. The dimensions are 31.5\" W x 15.7\" D x 71.7\" H.\n\n3. **KALLAX Shelving Unit** (Price: $39.99)\nThis shelving unit offers ample storage space for towels, linens, and other bathroom items. It has adjustable shelves and can be customized to fit your specific needs. The dimensions are 31.5\" W x 15.7\" D x 71.7\" H.\n\n4. **BJURSTA Side Table** (Price: $29.99)\nThis side table is perfect for placing near the sink or toilet to store small items like toothpaste, shampoo, and conditioner bottles. It has a compact design and a removable tray for easy cleaning.\n\nTo maximize storage in your small bathroom, consider combining these products or using them in conjunction with other IKEA storage solutions.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 4.919632911682129,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:33:58.290733"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "I need storage solutions for a small bathroom",
+      "response": " \n**Compact Bathroom Storage Units with Shelves and Cabinets**\n\nFor a small bathroom, I recommend the following compact storage units that offer shelves and cabinets:\n\n1. **MALM 3-Drawer Chest** (Price: $99-$149)\n\t* Dimensions: 24.8\" W x 18.5\" D x 30.7\" H\n\t* Features: Three drawers for storing toiletries, towels, and other bathroom essentials\n\t* Benefits: Compact design fits in tight spaces, adjustable shelves for customization\n2. **IVAR Shelving Unit** (Price: $129-$199)\n\t* Dimensions: 31.5\" W x 15.7\" D x 63.9\" H\n\t* Features: Adjustable shelves for storing toiletries, towels, and other bathroom items\n\t* Benefits: Versatile design allows for customization of shelf height and number of shelves\n\n**Wall-Mounted Bathroom Organizers for Tiny Bathrooms**\n\nFor tiny bathrooms, wall-mounted organizers are ideal to save floor space:\n\n1. **BJURSTA Wall-Mounted Shelf** (Price: $29-$49)\n\t* Dimensions: 23.6\" W x 4.7\" D x 12.6\" H\n\t* Features: Adjustable shelf for storing toiletries, towels, or other bathroom essentials\n\t* Benefits: Space-saving design, easy installation\n2. **KVARTERSKLIPPER Wall-Mounted Cabinet** (Price: $99-$149)\n\t* Dimensions: 23.6\" W x 4.7\" D x 30.7\" H\n\t* Features: Cabinet with adjustable shelves for storing toiletries and other bathroom items\n\t* Benefits: Compact design fits in tight spaces, easy installation\n\n**Bathroom Storage Solutions under 24 inches Wide for Narrow Spaces**\n\nFor narrow spaces, I recommend the following storage solutions:\n\n1. **Hemnes Narrow Cabinet** (Price: $99-$149)\n\t* Dimensions: 23.6\" W x 11.8\" D x 63.9\" H\n\t* Features: Two doors with adjustable shelves for storing toiletries and other bathroom essentials\n\t* Benefits: Compact design fits in narrow spaces, easy installation\n2. **LACK TV Bench with Storage** (Price: $49-$79)\n\t* Dimensions: 23.6\" W x 11.8\" D x 17.3\" H\n\t* Features: Storage compartment under the bench seat for storing toiletries or other bathroom items\n\t* Benefits: Space-saving design, easy installation\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.990145921707153,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:06.281001"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "I need storage solutions for a small bathroom",
+      "response": "1. **MALM 3-Drawer Chest**:\n\t* Dimensions: 30\" wide x 18\" deep x 60\" tall (76 cm x 46 cm x 152 cm)\n\t* Storage capacity: Three drawers with adjustable dividers\n\t* Material: Durable MDF in a matte white finish\n\t* Price: $99-$149 USD\n\t* This product is not ideal due to its larger size and lack of mirror and LED lighting features.\n2. **BJURSTA Side Table**:\n\t* Dimensions: 24\" wide x 18\" deep x 24\" tall (61 cm x 46 cm x 61 cm)\n\t* Storage capacity: One drawer and one shelf\n\t* Material: Water-resistant MDF in a matte white finish\n\t* Price: $49-$79 USD\n\t* This product is not ideal due to its limited storage capacity and lack of mirror and LED lighting features.\n3. **IVAR Shelving Unit**:\n\t* Dimensions: Customizable dimensions, but can be up to 30\" wide x 60\" tall (76 cm x 152 cm)\n\t* Storage capacity: Adjustable shelves and cabinets\n\t* Material: Durable MDF in various finishes\n\t* Price: $99-$299 USD\n\t* This product is not ideal due to its customizable size, which may not fit your compact bathroom space, and the lack of mirror and LED lighting features.\n4. **HEMMA Bathroom Storage Cabinet**:\n\t* Dimensions: 24\" wide x 30\" tall x 12\" deep (60 cm x 76 cm x 30 cm)\n\t* Storage capacity: Two large storage compartments, two adjustable shelves, two soft-close drawers, and cable management system\n\t* Material: Water-resistant MDF frame, moisture-resistant birch plywood shelves and drawers, tempered glass mirror, and brushed aluminum hardware\n\t* Price: $149-$199 USD\n\t* This product matches your ideal description perfectly.\n\nBased on your requirements, I recommend the HEMMA Bathroom Storage Cabinet for its compact design, multi-functional features, adjustable shelves, soft-close drawers, LED lighting, water-resistant materials, and affordable price point.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 12.835695266723633,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:19.116908"
+    },
+    {
+      "strategy": "step_back",
+      "query": "I need storage solutions for a small bathroom",
+      "response": "**Storage Solutions for a Small Bathroom**\n\nGiven the compact space, we'll focus on maximizing vertical storage and utilizing multi-functional pieces to keep your bathroom organized and clutter-free.\n\n**1. Wall-Mounted Storage:**\nTo make the most of your bathroom's vertical space, I recommend the **BJURSTA Wall-Mounted Shelf** (Price: $29.99). This shelf is designed for small spaces and can hold up to 22 lbs. It's perfect for storing toiletries, towels, or personal care items. The shelf measures 24\" wide x 12\" deep x 6\" high (60 cm x 30 cm x 15 cm).\n\n**2. Over-the-Toilet Storage:**\nFor additional storage above the toilet, consider the **KVARTERSKLIPPER Over-the-Toilet Cabinet** (Price: $49.99). This compact cabinet provides ample storage for toiletries, towels, or other essentials. It measures 24\" wide x 18\" deep x 30\" high (60 cm x 45 cm x 76 cm) and has a weight capacity of up to 44 lbs.\n\n**3. Pedestal Storage:**\nTo create a convenient storage solution near the sink, I suggest the **FYNDIG Pedestal Cabinet** (Price: $69.99). This pedestal cabinet features a spacious interior with adjustable shelves and a removable tray for easy cleaning. It measures 24\" wide x 18\" deep x 30\" high (60 cm x 45 cm x 76 cm) and can hold up to 55 lbs.\n\n**4. Hanging Organizer:**\nFor hanging towels and robes, consider the **KALLAX Hanging Organizer** (Price: $19.99). This organizer features multiple hooks and a towel bar, keeping your towels within easy reach while keeping your floor clear.\n\n**Additional Recommendations:**\n\n* To optimize lighting in your bathroom, consider adding under-cabinet lighting using the **LYSP\u00c4TTER LED Strip Lighting** (Price: $9.99).\n* For a stylish and functional mirror, look at the **HEMNES Mirror with LED Lighting** (Price: $79.99), which features adjustable LED lights for optimal illumination.\n\nThese recommendations will help you maximize your bathroom's storage potential while maintaining an open and airy feel.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.34554409980774,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:28.462558"
+    },
+    {
+      "strategy": "basic",
+      "query": "Looking for bedroom storage ideas",
+      "response": " \nFor a comprehensive bedroom storage solution, I recommend the MALM 6-Drawer Dresser (Item #202.001.92) and the HEMNES 3-Drawer Chest (Item #202.001.93). These two pieces will provide ample storage space for your clothes, linens, and other bedroom essentials.\n\nThe MALM 6-Drawer Dresser measures 63.5 inches wide, 19.7 inches deep, and 31.5 inches tall. It features six spacious drawers with soft-close drawer glides for smooth operation. The dresser is made of solid wood and has a sturdy design that can hold up to 200 pounds per drawer.\n\nThe HEMNES 3-Drawer Chest measures 39 inches wide, 17 inches deep, and 31 inches tall. It also features three spacious drawers with soft-close drawer glides and is made of solid wood for durability.\n\nBoth pieces are part of IKEA's MALM and HEMNES collections, which offer a range of matching furniture pieces that can be mixed and matched to create a cohesive look in your bedroom.\n\nTo complement these storage solutions, I suggest adding some wall-mounted shelves or cabinets to maximize vertical space in your bedroom. The IVAR Shelving Unit (Item #202.001.91) is an excellent option for this purpose. It measures 71 inches wide, 15 inches deep, and can be adjusted to various heights to fit your needs.\n\nFor added functionality, consider the FYNDIG Storage Ottoman (Item #202.001.94), which provides additional storage space for linens, out-of-season clothes, or other items you want to keep out of sight.\n\nAll of these products are available in various finishes to match your desired style and decor.\n\n**Price Breakdown:**\n\n* MALM 6-Drawer Dresser: $299\n* HEMNES 3-Drawer Chest: $199\n* IVAR Shelving Unit: $99-$149 (depending on the configuration)\n* FYNDIG Storage Ottoman: $49\n\n**Total Estimated Cost:** $646-$747\n\nThese recommendations should provide you with a comprehensive bedroom storage solution that meets your needs while staying within budget.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 5.980848073959351,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:34.443643"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Looking for bedroom storage ideas",
+      "response": "**Bedroom Storage Solutions for Maximizing Closet Space**\n\nFor maximizing closet space, I recommend the following products:\n\n1. **KLIPPAN Storage Bench**: This storage bench is perfect for small closets or entryways. It features a compact design with a 24\" wide x 16\" deep x 18\" high footprint, making it ideal for narrow spaces. The KLIPPAN has a removable cushion top and a storage compartment underneath, providing additional storage for linens, out-of-season clothes, or accessories. ($99)\n2. **MALM 3-Drawer Chest**: This chest of drawers is designed to fit snugly in tight spaces, measuring 30\" wide x 18\" deep x 30\" high. Its compact size makes it perfect for small closets or bedrooms with limited floor space. The MALM features three spacious drawers with smooth-gliding runners and a sturdy frame. ($129)\n3. **IVAR Shelving Unit**: For maximizing vertical space in your closet, consider the IVAR shelving unit. This adjustable shelving system can be customized to fit your specific needs, with shelves ranging from 12\" to 36\" wide and up to 72\" tall. The IVAR is available in various configurations, including wall-mounted and freestanding options. ($149-$299)\n\n**Alternative to Dressers: Storage Ottomans and Trunks for Bedroom Organization**\n\nFor alternative storage solutions that double as seating or decorative pieces, consider these options:\n\n1. **KVARTERSKLIPPER Storage Ottoman**: This stylish ottoman features a compact design (24\" wide x 18\" deep x 18\" high) with a removable cushion top and a spacious storage compartment underneath. Perfect for storing linens, out-of-season clothes, or accessories. ($129)\n2. **FYNDIG Trunk**: The FYNDIG trunk is a versatile storage solution that can be used as a coffee table or additional seating. It measures 30\" wide x 18\" deep x 18\" high and features a sturdy wooden frame with a soft-close lid. Ideal for storing blankets, out-of-season clothes, or luggage. ($199)\n3. **BJURSTA Storage Trunk**: This rustic-chic trunk measures 36\" wide x 20\" deep x 20\" high and features a spacious interior with dividers for organizing items like linens, toys, or clothing. The BJURSTA trunk has a sturdy wooden frame and a soft-close lid. ($249)\n\n**Bedroom Storage Ideas Using Wall-Mounted Shelves and Drawers under 48 inches Wide**\n\nFor wall-mounted shelves and drawers that won't overwhelm your bedroom space, consider these options:\n\n1. **LACK Wall Shelf**: This minimalist shelf measures 31-1/2\" wide x 11-5/8\" deep x 29-1/2\" high and is perfect for displaying decorative items or storing books and linens. The LACK shelf is easy to install and adjust to fit your specific needs. ($29)\n2. **MALM Wall-Mounted Drawer Unit**: This compact drawer unit measures 31-1/2\" wide x 15-3/4\" deep x 29-1/2\" high and features two spacious drawers with smooth-gliding runners. Ideal for storing personal items like jewelry, cosmetics, or small accessories. ($99)\n3. **BJURSTA Wall-Mounted Shelf**: This rustic-chic shelf measures 35-7/8\" wide x 11-5/8\" deep x 29-1/2\" high and features two adjustable shelves for customizable storage solutions.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 10.713078022003174,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:45.156780"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Looking for bedroom storage ideas",
+      "response": "1. **S\u00f6derhamn Bedside Storage Cabinet (SBSC-01)**: This product matches your ideal description in every aspect, including dimensions, material, and features. It provides ample storage for bedside essentials, adjustable shelf height, integrated USB ports and power outlets, and soft-close drawer glides.\n\n2. **Hemnes Bedside Table with Drawer**: Although this product has a similar design to the SBSC-01, it lacks the adjustable shelf height and integrated USB ports and power outlets. However, it still offers ample storage space for bedside essentials.\n\n3. **Linnmon Table with Drawers**: This product has a more minimalist design compared to the SBSC-01 but lacks the adjustable shelf height and integrated USB ports and power outlets. It's a good option if you prioritize a sleek design over additional features.\n\n4. **Klippan Storage Bench**: This product is designed for storage rather than bedside use but can be used as an alternative if you need additional storage in your bedroom. It doesn't match your ideal description in terms of dimensions or features.\n\n5. **Malm Dresser**: This product is a dresser rather than a bedside storage cabinet and doesn't match your ideal description in terms of dimensions or features.\n\nBased on your requirements, I recommend purchasing the **S\u00f6derhamn Bedside Storage Cabinet (SBSC-01)** due to its comprehensive feature set and ability to meet all your needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 10.680028915405273,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:34:55.836887"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Looking for bedroom storage ideas",
+      "response": "**Storage Solution 1: MALM Storage Bed Frame with Drawers**\n\n* Dimensions: 63.5\" W x 83.5\" L x 35.4\" H\n* Price: $299-$399 (depending on the size and configuration)\n* Benefits:\n\t+ Provides ample storage space for bedding, linens, and out-of-season clothes\n\t+ Features a built-in drawer system with adjustable dividers for customizable organization\n\t+ Sleek design fits well in modern bedrooms\n\n**Additional Recommendations:**\n\n**Storage Solution 2: KALLAX Shelving Unit**\n\n* Dimensions: 31.5\" W x 71.7\" L x 29.5\" H\n* Price: $99-$199 (depending on the size and configuration)\n* Benefits:\n\t+ Offers additional storage space for books, decorative items, or folded clothing\n\t+ Can be easily assembled and rearranged to fit your changing needs\n\t+ Compatible with various IKEA storage baskets and bins for added organization\n\n**Lighting Considerations:**\nTo enhance the ambiance of your bedroom, consider adding table lamps or floor lamps from our collection. For example:\n\n**LYSP\u00c4TTER Table Lamp**\n\n* Dimensions: 17.3\" H x 9.8\" W x 9.8\" D\n* Price: $29.99\n* Benefits:\n\t+ Provides soft, warm lighting for reading or relaxation\n\t+ Sleek design complements modern bedroom decor\n\n**Additional Tips:**\nTo maximize storage space in your bedroom, consider using vertical storage solutions like wall-mounted shelves or hooks to keep clutter at bay.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.117352962493896,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:03.954462"
+    },
+    {
+      "strategy": "basic",
+      "query": "Need a compact storage solution for my home office",
+      "response": " \nFor a compact storage solution, I recommend the following products:\n\n1. **MALM 3-Drawer Chest** (Price: $99-$149): This compact chest of drawers is perfect for storing office supplies, papers, and other essentials. It has three spacious drawers with soft-close drawer glides and a sturdy frame made of particleboard. The dimensions are 31.5\" W x 19.7\" D x 29.5\" H.\n\n2. **IVAR Shelving Unit** (Price: $49-$99): This versatile shelving unit can be used to store books, binders, or office equipment. It's easy to assemble and has adjustable shelves that can be customized to fit your needs. The dimensions are 31.5\" W x 15.7\" D x 71.7\" H.\n\n3. **BJURSTA Side Table** (Price: $29-$49): This small side table can be used as an additional storage space for office supplies or as a temporary workspace. It has a compact design and a removable tray for easy cleaning. The dimensions are 17.7\" W x 17.7\" D x 23.6\" H.\n\n4. **KVARTERSKLIPPER Storage Box** (Price: $9-$19): These storage boxes are perfect for storing small office supplies like paper clips, push pins, or rubber bands. They come in various sizes and have a compact design that fits easily under your desk or on a shelf.\n\nTo create a comprehensive storage solution, consider combining these products:\n- Place the MALM 3-Drawer Chest at the back of your home office to store larger items.\n- Use the IVAR Shelving Unit next to it for storing books or office equipment.\n- Position the BJURSTA Side Table near your workspace for easy access to frequently used supplies.\n- Place the KVARTERSKLIPPER Storage Boxes on top of the IVAR Shelving Unit or inside the MALM Chest for extra storage.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 5.5278050899505615,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:09.482378"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Need a compact storage solution for my home office",
+      "response": " \n**Compact Home Office Storage Solutions with Shelves and Drawers:**\n\n1. **MALM 3-Drawer Chest**: A compact storage solution with three drawers, perfect for storing office supplies, papers, and office equipment. It measures 35.4\" H x 31.5\" W x 17.7\" D and has a footprint of 31.5\" x 17.7\". The MALM series is known for its sleek design and affordability.\n\t* Price: $49-$69 (depending on the color)\n\t* Benefits: Compact size, versatile storage options, easy to assemble\n2. **HEMNES Side Table with Storage**: A stylish side table with a drawer and shelf, ideal for storing office essentials like paperweights, pens, and notebooks. It measures 23.6\" H x 23.6\" W x 15.7\" D and has a footprint of 23.6\" x 15.7\".\n\t* Price: $99-$129 (depending on the color)\n\t* Benefits: Space-saving design, additional surface area for display or work\n\n**Alternative to File Cabinets for Small Spaces: Compact Shelving Units and Organizers**\n\n1. **KALLAX Shelving Unit**: A compact shelving unit perfect for storing books, binders, or office supplies in small spaces. It's available in various configurations (2-8 shelves) and measures up to 47.2\" H x 31.5\" W x 17.7\" D.\n\t* Price: $29-$99 (depending on the configuration)\n\t* Benefits: Customizable storage capacity, space-efficient design\n2. **IVAR Shelving Unit**: A versatile shelving unit that can be used as a room divider or storage unit in small spaces. It's available in various configurations (2-4 shelves) and measures up to 47.2\" H x 31.5\" W x 17.7\" D.\n\t* Price: $39-$149 (depending on the configuration)\n\t* Benefits: Adaptable design, adjustable shelf height\n\n**Adjustable Wall-Mounted Storage Units for Home Offices with a 30x40 inch Footprint**\n\n1. **BJURSTA Wall-Mounted Shelf**: A wall-mounted shelf perfect for storing office supplies, books, or decorative items in small spaces. It measures up to 30\" H x 40\" W x 3/4\"D.\n\t* Price: $29-$49\n\t* Benefits: Space-saving design, adjustable height\n2. **KVARTERSKLIPPER Wall-Mounted Organizer**: A wall-mounted organizer with adjustable shelves and hooks for hanging items like bags or jackets in small spaces.\n\t* Price: $49-$79\n\t* Benefits: Versatile storage options, customizable layout\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.702111005783081,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:18.184586"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Need a compact storage solution for my home office",
+      "response": "1. **MALM 3-Drawer Chest**: This product is a great match for your needs, offering a compact footprint (24\" W x 18\" D x 30\" H) and adjustable shelves and drawers. It has a similar design to the HEMMA, with soft-close drawers and doors, and an integrated cable management system. However, it has only three drawers instead of four.\n\t* Price: $99 USD (approximately \u20ac89 EUR)\n\t* Material: Sustainably sourced birch plywood with a matte white finish\n2. **BJURSTA Side Table**: This product can serve as a compact storage solution, but it doesn't have the same level of customization as the HEMMA. It features two drawers and one shelf, but they are not adjustable.\n\t* Price: $69 USD (approximately \u20ac59 EUR)\n\t* Material: Sustainably sourced birch wood with a matte white finish\n3. **IVAR Shelving Unit**: This product offers more storage space than the HEMMA but lacks the modular design and cable management system. It's ideal for storing books, binders, or office supplies.\n\t* Price: $129 USD (approximately \u20ac109 EUR)\n\t* Material: Sustainably sourced birch plywood with a matte white finish\n4. **KVARTERSKLIPPER Drawer Unit**: This product provides additional storage space but lacks the ergonomic handle design and soft-close drawers of the HEMMA. It features two large drawers and one small drawer.\n\t* Price: $149 USD (approximately \u20ac129 EUR)\n\t* Material: High-quality melamine-coated MDF\n\nConsidering your requirements, I recommend the MALM 3-Drawer Chest as the best match for your needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 11.341169118881226,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:29.525988"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Need a compact storage solution for my home office",
+      "response": "**Storage Solution:**\nConsidering the compact space and functional requirements, I recommend the **MALM 3-drawer dresser** (Price: $99-$149) as a versatile storage solution for your home office. This piece of furniture is designed to provide ample storage while keeping your workspace clutter-free. The three drawers offer a total capacity of 24.7 cu. ft., which can accommodate office supplies, paperwork, and personal items.\n\n**Additional Storage Options:**\nTo maximize storage capacity in your compact space, I suggest supplementing the MALM dresser with the **KALLAX shelving unit** (Price: $49-$99). This shelving system is designed for small spaces and can be easily assembled to fit your specific needs. You can use it to store books, binders, or other office essentials.\n\n**Desk Organizer:**\nFor efficient retrieval of frequently used items, I recommend the **FYNDIG desk organizer** (Price: $29-$49). This compact organizer features multiple compartments and trays to keep your workspace tidy and organized. It's perfect for storing pens, pencils, paper clips, and other office supplies within easy reach.\n\n**Shelf Extension:**\nTo make the most of your wall space, consider adding the **BJURSTA shelf extension** (Price: $29-$49). This adjustable shelf can be attached to any wall-mounted unit or freestanding furniture piece, providing additional storage for books, binders, or decorative items.\n\n**Lighting Solution:**\nTo ensure optimal lighting for focused tasks, I suggest using the **LYSP\u00c4TTER floor lamp** (Price: $49-$69). This stylish and energy-efficient lamp provides warm and soft light that won't strain your eyes. Its compact design makes it perfect for small spaces.\n\n**Additional Tips:**\n\n* To maintain a clutter-free workspace, consider using baskets or bins to store office supplies and paperwork.\n* Utilize vertical space by installing shelves or using stackable containers to maximize storage capacity.\n* Consider investing in a cordless power strip to keep your workspace organized and reduce clutter.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.662431955337524,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:38.188485"
+    },
+    {
+      "strategy": "basic",
+      "query": "Looking for a comfortable office chair under $200",
+      "response": " \n1. **MARKUS Office Chair**: This is a great option for comfort and affordability. It features a sturdy design with adjustable height, tilt, and armrests. The chair has a breathable mesh fabric that allows for airflow and keeps you cool during long working hours. The dimensions are 26.7\" W x 27.6\" D x 38.2\" H, and it weighs around 22 lbs.\n\nThe price is $149, making it an excellent value for the quality and features you get.\n\n2. **BJURSTA Side Table**: To complement your new office chair, I recommend this side table for added convenience and organization. It has a compact design with a removable tray and two drawers for storing office supplies or personal items. The dimensions are 15.7\" W x 23.6\" D x 23.4\" H, and it weighs around 13 lbs.\n\nThe price is $29.99, making it an affordable addition to your workspace.\n\n3. **MALM Desk**: For a complete office setup, consider this MALM desk that offers ample space for your computer, papers, and other essentials. It's made from durable particleboard with a sleek design that fits well in most home offices or small spaces.\n\nThe dimensions are 47.2\" W x 23.6\" D x 29.5\" H, and it weighs around 44 lbs.\n\nThe price is $99-$129 depending on the size you choose.\n\nThese products will provide you with a comfortable workspace that meets your needs while staying within your budget of $200.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 4.44567084312439,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:42.634409"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Looking for a comfortable office chair under $200",
+      "response": " \n**Recommendation 1: Best Ergonomic Office Chairs under $200**\n\nFor optimal comfort and support, I recommend the **IKEA Markus Chair** ($149). This chair features a contoured backrest and adjustable lumbar support to ensure proper spinal alignment. The seat height is adjustable, allowing you to customize the fit to your body. The chair also has a 360-degree swivel function for easy movement.\n\nKey specifications:\n- Seat height: 17.7-21.3 inches (45-54 cm)\n- Seat depth: 20.5 inches (52 cm)\n- Backrest height: 30.7 inches (78 cm)\n- Weight capacity: 250 pounds (113 kg)\n\n**Recommendation 2: Affordable Mesh Office Chairs with Adjustable Lumbar Support and Headrest**\n\nFor a mesh office chair with adjustable lumbar support and headrest, I suggest the **IKEA Markus Chair with Headrest** ($199). This chair features a breathable mesh fabric for ventilation and an adjustable headrest for added comfort. The lumbar support is also adjustable, ensuring you can customize the fit to your body.\n\nKey specifications:\n- Seat height: 17.7-21.3 inches (45-54 cm)\n- Seat depth: 20.5 inches (52 cm)\n- Backrest height: 30.7 inches (78 cm)\n- Weight capacity: 250 pounds (113 kg)\n\n**Recommendation 3: Compact Desk Chairs with Breathable Fabric and 360-Degree Swivel under $200**\n\nFor a compact desk chair with breathable fabric and 360-degree swivel, I recommend the **IKEA EKTORP Chair** ($129). This chair features a compact design and a breathable fabric that allows for airflow. The chair also has a 360-degree swivel function for easy movement.\n\nKey specifications:\n- Seat height: 18.9-22.4 inches (48-57 cm)\n- Seat depth: 19.7 inches (50 cm)\n- Backrest height: 28.3 inches (72 cm)\n- Weight capacity: 220 pounds (100 kg)\n\nAll of these options are available at IKEA stores or online, and they meet your budget of $200.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.021410703659058,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:35:49.656029"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Looking for a comfortable office chair under $200",
+      "response": "1. **BJURSTA Chair**: This chair has a similar mesh back and seat, but it lacks adjustable armrests and a headrest. It's also more expensive at $199.\n2. **MARKUS Chair**: Although it has adjustable armrests, the MARKUS Chair doesn't have a breathable mesh back or seat, and its headrest is not detachable. It's priced at $149.\n3. **PO\u00c4NG Chair**: This chair features a breathable mesh back and seat, but it doesn't have adjustable armrests or a headrest. The PO\u00c4NG Chair is priced at $129.\n\nConsidering your requirements, I recommend the following products:\n\n**Recommendation 1:** **BJURSTA Chair** ($199)\nWhile it's slightly above your budget, this chair offers excellent breathability and ergonomic design. Although it lacks adjustable armrests and a headrest, its mesh back and seat provide optimal ventilation.\n\n**Recommendation 2:** **MARKUS Chair** ($149)\nThis chair offers adjustable armrests, which is a key feature you specified. However, it lacks a breathable mesh back and seat, and its headrest is not detachable.\n\n**Recommendation 3:** **PO\u00c4NG Chair** ($129)\nThis chair features a breathable mesh back and seat but lacks adjustable armrests and a headrest.\n\nConsidering your ideal product description, I would like to suggest an alternative option that meets all your requirements:\n\n**Alternative Recommendation:** **KLIPPAN Office Chair** ($179)\n\nThe KLIPPAN Office Chair offers:\n* Ergonomic design with adjustable seat height (22-26 inches), tilt mechanism, and lumbar support\n* Breathable mesh back and seat for ventilation and temperature regulation\n* Adjustable armrests with 360-degree swivel for customizable comfort\n* Detachable headrest with adjustable height and tilt for optimal neck support\n* Built-in cable management system to keep workspace organized\n\nDimensions:\n* Seat Height: 18-22 inches\n* Seat Depth: 20 inches\n* Back Height: 32 inches\n* Arm Height: 28-32 inches\n* Width: 27 inches\n* Depth: 24 inches\n* Weight Capacity: 250 lbs\n\nMaterials and Style Details:\n* Frame: Durable steel with a powder-coated finish in a sleek, matte black or white color option.\n* Seat and Backrest: Breathable mesh fabric with a subtle texture and a soft, gray or blue hue.\n* Armrests and Headrest: Ergonomic foam with a smooth, white or gray finish.\n\nStorage Capabilities and Organization:\n1. Hidden Storage Compartment: A small compartment under the seat for storing office supplies.\n2. Cable Management System: A built-in cable organizer with clips to keep cords tidy.\n3. Pencil Tray: A detachable tray on the armrest for holding writing utensils or small items.\n\nPractical Benefits and Use Cases:\n1. Long Sitting Comfort: The adjustable features ensure that users can maintain proper posture and stay comfortable during extended periods of sitting.\n2. Space-Saving Design: The compact size makes it perfect for small home offices, shared workspaces, or cubicles.\n3. Customizable: The adjustable armrests and headrest allow users to tailor the chair to their individual needs.\n\nPrice Point and Value Proposition:\nMSRP: $179\nValue Proposition: \"Experience ultimate comfort and flexibility in your workspace without breaking the bank.\"\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 15.407010793685913,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:05.063101"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Looking for a comfortable office chair under $200",
+      "response": "**Recommendation 1: IKEA PO\u00c4NG Chair**\n\n* Price: $99\n* Measurements: Height: 31.5\" (80 cm), Width: 27.5\" (70 cm), Depth: 28.7\" (73 cm)\n* Features:\n\t+ Adjustable height and tilt functions for optimal comfort\n\t+ Breathable mesh fabric for ventilation and durability\n\t+ Durable steel frame with a sturdy base for stability\n\t+ Suitable for users up to 250 lbs (113 kg)\n* Benefits:\n\t+ Compact design fits well in small spaces, making it perfect for home offices or compact workspaces\n\t+ Affordable price point within your budget of $200\n\n**Recommendation 2: IKEA MARKUS Chair**\n\n* Price: $149\n* Measurements: Height: 30.3\" (77 cm), Width: 26.8\" (68 cm), Depth: 28.7\" (73 cm)\n* Features:\n\t+ Ergonomic design with adjustable armrests and a waterfall edge to reduce pressure on the legs\n\t+ Durable polypropylene shell with a sleek, modern look\n\t+ Sturdy steel frame with a five-star base for stability\n\t+ Suitable for users up to 250 lbs (113 kg)\n* Benefits:\n\t+ Provides excellent support and comfort for long working hours\n\t+ Sleek design fits well in modern home offices or compact workspaces\n\n**Additional Recommendations**\n\nTo complement your office chair, consider the following products:\n\n* **IKEA LACK Coffee Table**: A compact, affordable option that provides additional workspace or storage ($29-$49)\n* **IKEA FYNDIG Storage Box**: A versatile storage unit that can hold office supplies, books, or other items ($10-$20)\n\nThese recommendations should meet your needs while staying within your budget of $200.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.168923139572144,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:13.232101"
+    },
+    {
+      "strategy": "basic",
+      "query": "Need a small kitchen table for two people",
+      "response": " \nFor a small kitchen table for two people, I recommend the Linnmon Table Top and the BJURSTA Table Legs. The Linnmon Table Top is made of high-quality birch veneer and has a compact design that fits perfectly in small spaces. It measures 24 inches wide, 31.5 inches long, and 1.8 inches thick.\n\nThe BJURSTA Table Legs are designed to be sturdy and versatile, allowing you to create a unique table configuration that suits your needs. They are adjustable in height from 28.3 to 31.5 inches, making them perfect for a small kitchen table.\n\nTo complete the look, I suggest pairing the Linnmon Table Top with the BJURSTA Table Legs and adding some storage with the IVAR Shelving Unit or the KALLAX Shelving Unit. The IVAR Shelving Unit is a great option for storing kitchen utensils, cookbooks, or other essentials within easy reach.\n\nHere's a breakdown of the products:\n\n* Linnmon Table Top: $29-$49 (depending on size)\n* BJURSTA Table Legs: $19-$29 (depending on quantity)\n* IVAR Shelving Unit: $99-$199 (depending on size)\n\nTotal estimated cost: $147-$277\n\nThese products will provide you with a functional and stylish small kitchen table for two people that can be easily customized to fit your space and needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 4.038725137710571,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:17.271097"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Need a small kitchen table for two people",
+      "response": " \n**Compact Dining Tables for Two People under 30 inches wide:**\n\n1. **BJURSTA Coffee Table**: A compact, minimalist coffee table perfect for two people. It measures 29.5 inches wide, 15.7 inches deep, and 17.7 inches high. Made of solid birch wood, it's a great space-saving option for small kitchens or apartments.\n\t* Price: $49\n\t* Benefits: Compact size, affordable, and easy to assemble.\n2. **LACK Coffee Table**: Another compact option from IKEA, measuring 29.5 inches wide, 15.7 inches deep, and 17.7 inches high. It's made of particleboard with a melamine surface and has a simple design.\n\t* Price: $39\n\t* Benefits: Affordable, easy to assemble, and suitable for small spaces.\n\n**Alternative to Traditional Kitchen Tables: Foldable, Wall-Mounted, or Countertop Options for Small Spaces**\n\n1. **KLIPPAN Wall-Mounted Table**: A wall-mounted table that can be folded up when not in use, saving space in your kitchen. It measures 23.6 inches wide and 31.5 inches long.\n\t* Price: $69\n\t* Benefits: Space-saving design, easy to install, and perfect for small kitchens.\n2. **KVARTERSKLIPPER Countertop Table**: A countertop table that can be easily moved or stored when not in use. It measures 23.6 inches wide and 31.5 inches long.\n\t* Price: $49\n\t* Benefits: Portable, easy to clean, and suitable for small kitchens.\n\n**Small Kitchen Tables with Storage, Made of Reclaimed Wood, and Dimensions 24x36 inches**\n\n1. **MALM Side Table with Storage**: A side table with storage that fits your dimensions requirement (24x36 inches). It's made of reclaimed wood and has two drawers for storing kitchen essentials.\n\t* Price: $99\n\t* Benefits: Ample storage space, made from sustainable materials, and stylish design.\n2. **IVAR Side Table with Storage**: Another side table with storage that meets your dimensions requirement (24x36 inches). It's made of reclaimed wood and has two drawers for storing kitchen items.\n\t* Price: $129\n\t* Benefits: Ample storage space, made from sustainable materials, and sturdy design.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.6589741706848145,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:24.930545"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Need a small kitchen table for two people",
+      "response": "1. **Linnmon Table Top** ($29.99 USD)\n   - Dimensions: 24\" x 36\" (60 cm x 90 cm)\n   - Material: Sustainably sourced birch wood with a matte finish\n   - Style: Scandinavian minimalism with clean lines and simple shapes\n   - Storage: None\n\nThis product matches your ideal table top dimensions but lacks storage capabilities.\n\n2. **BJURSTA Table** ($49.99 USD)\n   - Dimensions: 24\" x 36\" (60 cm x 90 cm)\n   - Height: Adjustable, 28.5\" (72 cm) to 34.6\" (88 cm)\n   - Material: Sustainably sourced birch wood with a natural oil finish\n   - Style: Scandinavian minimalism with clean lines and simple shapes\n   - Storage: One built-in drawer under the table top for storing utensils or small items\n\nThis product matches your ideal height and style but lacks the foldable design and additional storage compartments.\n\n3. **KVARTERSKLIPPER Table** ($79.99 USD)\n   - Dimensions: 24\" x 36\" (60 cm x 90 cm)\n   - Height: Adjustable, 28.5\" (72 cm) to 34.6\" (88 cm)\n   - Material: Sustainably sourced birch wood with a natural oil finish\n   - Style: Scandinavian minimalism with clean lines and simple shapes\n   - Storage: Two small compartments on either side of the base for storing spices or condiments\n\nThis product matches your ideal height, style, and some storage capabilities but lacks the foldable design and additional features like the hidden compartment.\n\n4. **LillaBord** ($129.99 USD)\n   - Dimensions: 24\" x 36\" (60 cm x 90 cm)\n   - Height: Adjustable, allowing for comfortable seating for two people\n   - Material: Sustainably sourced birch wood with a matte finish\n   - Style: Scandinavian minimalism with clean lines and simple shapes\n   - Storage: One built-in drawer under the table top, two small compartments on either side of the base, and a hidden compartment in the base\n\nThis product perfectly matches your ideal description, including all desired features.\n\nBased on your requirements, I recommend purchasing the **LillaBord** as it offers the most comprehensive set of features that meet your needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 11.91592001914978,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:36.846558"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Need a small kitchen table for two people",
+      "response": "**Recommended Product:** Linnmon Table Top and BJURSTA Chair\n\n**Why:**\n\n1.  **Space-Efficient Design**: The Linnmon Table Top is a compact, wall-mounted table that can be placed in a corner or against a wall, making it perfect for small kitchens. Its dimensions are 35.4\" x 23.6\" (90 cm x 60 cm), providing ample space for two people to work or dine comfortably.\n2.  **Versatility**: This table top can be paired with the BJURSTA Chair, which has a sleek design and compact footprint, allowing for easy movement around the table.\n3.  **Natural Light Optimization**: Since natural light may be limited in your kitchen, the Linnmon Table Top's surface is made from durable and easy-to-clean white melamine, which helps reflect light and create the illusion of more space.\n4.  **Storage**: Although storage needs are minimal, you can consider adding a small storage unit like the IVAR Shelving Unit (approx. $30) to store kitchen utensils or books nearby.\n\n**Additional Recommendations:**\n\n*   To enhance the functionality of your workspace, consider adding a laptop stand or a tray to keep your devices organized and within reach.\n*   If you prefer a more traditional table setup, you could opt for the smaller version of the MICKE Table (approx. $20), which measures 29.5\" x 23.6\" (75 cm x 60 cm).\n\n**Budget Breakdown:**\n\n*   Linnmon Table Top: approx. $40\n*   BJURSTA Chair: approx. $30\n*   IVAR Shelving Unit (optional): approx. $30\n\nTotal estimated cost: approx. $100\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.477851152420044,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:44.324919"
+    },
+    {
+      "strategy": "basic",
+      "query": "Want a cozy sofa for my apartment",
+      "response": " \nFor a cozy sofa, I suggest considering the KIVIK series. This collection offers a range of stylish and comfortable options that can fit various living room settings. The KIVIK 3-seater sofa (item #203.001) is an excellent choice for a cozy atmosphere. It features a compact design with a sturdy frame, making it perfect for smaller spaces.\n\nKey Features:\n- Dimensions: 87 x 35 x 30 inches (H x W x D)\n- Seat height: 17 inches\n- Arm height: 24 inches\n- Cushion thickness: 4 inches\n- Material: Faux leather or fabric options available\n- Price: $299-$399\n\nThe KIVIK series also includes matching armchairs and ottomans, which can be combined to create a cohesive look in your living room.\n\nTo complement the sofa, I recommend adding some throw pillows and blankets from the KVARNVIK series. These items are designed to add texture and color to your space while providing extra comfort.\n\nKey Features:\n- Throw pillow dimensions: 18 x 12 inches\n- Blanket dimensions: 50 x 60 inches\n- Material: Soft, plush fabric\n- Price: $9.99-$19.99\n\nLastly, consider adding some floor lamps from the FYNDIG series to create a warm and inviting ambiance in your apartment. These lamps are easy to assemble and come in various styles to match your desired aesthetic.\n\nKey Features:\n- Lamp height: 24 inches\n- Shade diameter: 10 inches\n- Material: Metal or wood base, glass shade\n- Price: $29.99-$49.99\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 4.67655611038208,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:49.001552"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Want a cozy sofa for my apartment",
+      "response": " \n**For Small Apartments with Compact Design and Comfortable Seating (Perspective 1)**\n\nConsidering your requirement for a compact design, I recommend the following sofas:\n\n* **KLIPPAN Sofa**: This compact sofa is designed for small spaces, measuring 71.7 inches wide, 31.5 inches deep, and 29.5 inches high. It features a sleek and minimalist design with a sturdy frame made of solid wood. The KLIPPAN sofa has a comfortable seating capacity of two people and comes with removable covers for easy cleaning.\n\t+ Price: $299\n\t+ Benefits: Space-saving design, comfortable seating, removable covers\n* **PO\u00c4NG Sofa**: Another great option for small apartments is the PO\u00c4NG sofa, which measures 71.7 inches wide, 31.5 inches deep, and 29.5 inches high. It features a compact design with a wooden frame and comes with a removable cover. The PO\u00c4NG sofa has a seating capacity of two people.\n\t+ Price: $349\n\t+ Benefits: Compact design, removable cover, affordable price\n\n**Alternative to Traditional Sofas: Bean Bag Chairs, Ottomans, or Sectionals (Perspective 2)**\n\nIf you're looking for an alternative to traditional sofas, consider the following options:\n\n* **KVARNVIK Bean Bag Chair**: A bean bag chair is a great option for small spaces as it can be easily moved around and doesn't take up much space. The KVARNVIK bean bag chair measures 30 inches in diameter and weighs only 10 pounds.\n\t+ Price: $99\n\t+ Benefits: Portable, space-saving design, easy to clean\n* **KVARTERSKLIPPER Ottoman**: An ottoman is another great alternative to traditional sofas. The KVARTERSKLIPPER ottoman measures 24 inches in diameter and has a sturdy wooden base.\n\t+ Price: $129\n\t+ Benefits: Space-saving design, versatile use as footrest or additional seating\n* **KVARTERSKLIPPER Sectional**: If you prefer sectionals over traditional sofas, consider the KVARTERSKLIPPER sectional sofa bed. It measures 72 inches wide and comes with two separate seats that can be arranged in different configurations.\n\t+ Price: $499\n\t+ Benefits: Versatile seating arrangement options, comfortable seating capacity of three people\n\n**Sofas with Plush Velvet Fabric, Oversized Pillows, and 72-inch Wide Dimensions (Perspective 3)**\n\nIf you're looking for a luxurious feel with plush velvet fabric and oversized pillows, consider the following options:\n\n* **BJURSTA Sofa**: This stylish sofa features plush velvet fabric and oversized pillows for a luxurious feel. It measures 72 inches wide and has a sturdy wooden frame.\n\t+ Price: $699\n\t+ Benefits: Luxurious feel, comfortable seating capacity of three people\n* **BJURSTA Loveseat**: If you prefer a loveseat over a full-sized sofa, consider the BJURSTA loveseat. It measures 60 inches wide and features plush velvet fabric and oversized pillows.\n\t+ Price: $599\n\t+ Benefits: Luxurious feel, comfortable seating capacity of two people\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.914602041244507,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:36:58.916228"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Want a cozy sofa for my apartment",
+      "response": "1. **BJURSTA Sofa**\n\t* Seating capacity: 3 people\n\t* Dimensions:\n\t\t+ Length: 78 inches (200 cm)\n\t\t+ Width: 35 inches (89 cm)\n\t\t+ Height: 30 inches (76 cm)\n\t\t+ Depth: 32 inches (81 cm)\n\t* Arm height: 26 inches (66 cm)\n\t* Cushion thickness: 3.5 inches (9 cm)\n\t* Reclining mechanism with adjustable headrest and footrest\n\t* Built-in USB ports and power outlets for convenient charging\n\t* Frame made from solid wood with a natural finish\n\t* Upholstery available in various fabrics and leathers\n\t* Cushions have removable covers for easy cleaning\n\t* Legs are made from durable steel with a powder-coated finish\n\t* No built-in storage compartments or pockets\n\tPrice: $699-$899\n\nThe BJURSTA Sofa is a great option, but it falls short on seating capacity and storage capabilities.\n\n2. **KLIPPAN Sofa**\n\t* Seating capacity: 2-3 people\n\t* Dimensions:\n\t\t+ Length: 72 inches (183 cm)\n\t\t+ Width: 31 inches (79 cm)\n\t\t+ Height: 28 inches (71 cm)\n\t\t+ Depth: 29 inches (74 cm)\n\t* Arm height: 24 inches (61 cm)\n\t* Cushion thickness: 3.5 inches (9 cm)\n\t* Reclining mechanism with adjustable headrest and footrest\n\t* Built-in USB ports and power outlets for convenient charging\n\t* Frame made from solid wood with a natural finish\n\t* Upholstery available in various fabrics and leathers\n\t* Cushions have removable covers for easy cleaning\n\t* Legs are made from durable steel with a powder-coated finish\n    * No built-in storage compartments or pockets\n    Price: $599-$799\n\nThe KLIPPAN Sofa is another great option, but it also lacks the desired seating capacity and storage features.\n\n3. **PO\u00c4NG Sofa**\n    * Seating capacity: 3-4 people\n    * Dimensions:\n        + Length: 96 inches (244 cm)\n        + Width: 42 inches (107 cm)\n        + Height: 32 inches (81 cm)\n        + Depth: 38 inches (97 cm)\n    * Arm height: 28 inches (71 cm)\n    * Cushion thickness: 4 inches (10 cm)\n    * Reclining mechanism with adjustable headrest and footrest\n    * Built-in USB ports and power outlets for convenient charging\n    * Frame made from solid wood with a natural finish\n    * Upholstery available in various fabrics and leathers\n    * Cushions have removable covers for easy cleaning\n    * Legs are made from durable steel with a powder-coated finish\n    * Two built-in storage compartments under the cushions, one large storage compartment behind the backrest, and two small pockets on the armrests for storing remotes, magazines, or other small items.\n    Price: $999-$1,299\n\nThe PO\u00c4NG Sofa perfectly matches your ideal requirements, offering the desired seating capacity, dimensions, features, and price point.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 15.440080165863037,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:14.356465"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Want a cozy sofa for my apartment",
+      "response": "**Space/Environment Considerations:**\nGiven the small to medium-sized space, I recommend a compact and space-efficient sofa design that won't overwhelm the room. To maximize natural light, I suggest placing the sofa near a window or using mirrors to create the illusion of more space.\n\n**Functional Requirements:**\nTo meet your needs for comfort, versatility, and storage, I recommend the following:\n\n1. **KIVIK Sofa**: This compact sofa is designed for small spaces and features a sleek, low-profile design that won't dominate the room. It's available in various sizes, including a 2-seater (W: 95 cm / 37.4 in, D: 80 cm / 31.5 in, H: 75 cm / 29.5 in) and a 3-seater (W: 145 cm / 57 in, D: 80 cm / 31.5 in, H: 75 cm / 29.5 in).\n\t* Price: Starting at $299 (2-seater) or $399 (3-seater)\n\t* Features:\n\t\t+ Compact design with a low profile\n\t\t+ Reversible cushions for easy cleaning\n\t\t+ Storage compartment under the seat cushion for storing throw pillows or blankets\n2. **MALM Storage Ottoman**: This storage ottoman can be used as additional seating or as a footrest when paired with the KIVIK Sofa.\n\t* Price: $99\n\t* Features:\n\t\t+ Space-saving design with a compact footprint\n\t\t+ Storage compartment for storing items like throw blankets, books, or magazines\n3. **FYNDIG Throw Pillows**: These throw pillows are designed to add color and texture to your space while providing extra comfort.\n\t* Price: Starting at $9.99 each\n\t* Features:\n\t\t+ Soft, plush material for added comfort\n\t\t+ Machine washable covers for easy cleaning\n\n**Additional Recommendations:**\n\n1. **LACK Coffee Table**: A compact coffee table that provides additional surface area for placing drinks, snacks, or decorative items.\n\t* Price: $29-$49 (depending on size)\n2. **FYNDIG Floor Lamp**: A stylish floor lamp that provides warm and cozy lighting to supplement natural light.\n\t* Price: $49-$69\n\n**Total Estimated Cost:** Approximately $536-$657 (depending on the chosen configurations)\n\nThese recommendations should provide you with a cozy and functional living space that meets your needs for comfort, versatility, and storage.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 10.010955095291138,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:24.367516"
+    },
+    {
+      "strategy": "basic",
+      "query": "Help me organize my kitchen drawers",
+      "response": " \nTo organize your kitchen drawers, I recommend the following products:\n\n1. **KOMPLEMENT Drawer Organizers** ($9.99 - $14.99): These versatile organizers come in various sizes and styles to fit your specific drawer needs. They feature adjustable dividers, compartments, and a soft-close mechanism to keep your utensils and kitchen essentials tidy and within reach.\n\nFor example, the KOMPLEMENT Drawer Organizer (30 x 20 cm) is perfect for small utensil drawers, while the KOMPLEMENT Drawer Organizer (40 x 25 cm) suits larger drawers for storing cookware or baking supplies.\n\n2. **MALM Drawer Dividers** ($4.99 - $7.99): These simple yet effective dividers help separate items within your drawers, keeping them organized and easy to find. The MALM Drawer Dividers are available in three different sizes: 30 cm, 40 cm, and 50 cm.\n\n3. **BJURSTA Storage Bins** ($9.99 - $19.99): These sturdy bins are ideal for storing dry goods like pasta, rice, or snacks in your kitchen drawers or pantry. Choose from various sizes (10-20 liters) and colors to match your kitchen decor.\n\n4. **FYNDIG Drawer Inserts** ($29.99 - $49.99): For a more customized solution, consider the FYNDIG Drawer Inserts, which come in various configurations (e.g., utensil organizer, spice rack, or tray). These inserts can be easily installed into your existing drawers using adhesive strips.\n\n5. **KVARTERSKLIPPER Drawer Handles** ($4.99 - $9.99): Upgrade your drawer handles with these stylish and functional options available in various materials (e.g., plastic or metal). The KVARTERSKLIPPER handles provide a secure grip and add a touch of modern design to your kitchen.\n\nTo ensure optimal organization and accessibility, consider combining these products to create a customized system tailored to your specific needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 5.4767279624938965,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:29.844374"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Help me organize my kitchen drawers",
+      "response": " \n**For Kitchen Drawer Organizers for Utensils and Gadgets (Perspective 1)**\n\n* **Product:** KOMPLEMENT Utensil Organizer (Price: $9.99)\n\t+ This organizer features a compact design with multiple compartments to store utensils, gadgets, and spices. It's made of durable plastic and has a sleek, modern look that fits well with most kitchen styles.\n\t+ Dimensions: 10.2 x 6.3 x 2.4 inches\n\t+ Capacity: Holds up to 20 utensils or gadgets\n* **Alternative Option:** KOMPLEMENT Spice Rack (Price: $14.99)\n\t+ This product is designed to store spices, oils, and other small items in your kitchen drawers. It has adjustable dividers and a compact footprint.\n\t+ Dimensions: 8.7 x 5.5 x 2.4 inches\n\t+ Capacity: Holds up to 12 spice bottles or small containers\n\n**For Adjustable Drawer Dividers for Small Kitchens and Apartments (Perspective 2)**\n\n* **Product:** KVARTERSKLIPPER Drawer Divider (Price: $19.99)\n\t+ This divider is designed for small kitchens and apartments, providing adjustable compartments to customize the storage space according to your needs.\n\t+ Dimensions: 17.7 x 11.8 x 2 inches\n\t+ Material: Durable plastic with a smooth finish\n* **Alternative Option:** FYNDIG Drawer Organizer (Price: $24.99)\n\t+ This product offers adjustable dividers and a removable tray for easy cleaning and customization.\n\t+ Dimensions: 18 x 12 x 2 inches\n\t+ Material: Sturdy plastic with a modern design\n\n**For Customizable Drawer Inserts with Stainless Steel or Bamboo Materials (Perspective 3)**\n\n* **Product:** FYNDIG Customizable Drawer Insert (Price: $49.99 - $69.99)\n\t+ This insert is available in stainless steel or bamboo materials and can be customized to fit your specific drawer size.\n\t+ Dimensions: Varies depending on the size of the drawer\n\t+ Material: Durable stainless steel or eco-friendly bamboo\n* **Alternative Option:** KVARTERSKLIPPER Customizable Drawer Organizer (Price: $39.99 - $59.99)\n\t+ This product offers customizable compartments and dividers in various sizes, perfect for large or small drawers.\n\t+ Dimensions: Varies depending on the size of the drawer\n\t+ Material: Durable plastic with a modern design\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.882733106613159,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:37.727176"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Help me organize my kitchen drawers",
+      "response": "1. **MALM Drawer Organizer**: This product is a great alternative to the Kocksk\u00e5p, offering a similar modular design and adjustable dividers. However, it has a slightly different material composition (MDF and plastic) and doesn't have the soft-close mechanism.\n\n**Dimensions:** 18 inches wide x 12 inches deep x 6 inches tall (45 cm x 30 cm x 15 cm)\n**Price:** $24.99 (single unit), $19.99 (bundle deal)\n\n2. **BJURSTA Drawer Organizer**: This product features a more compact design, with dimensions of 12 inches wide x 8 inches deep x 4 inches tall (30 cm x 20 cm x 10 cm). It lacks the adjustable dividers but offers a removable liner and soft-close mechanism.\n\n**Dimensions:** 12 inches wide x 8 inches deep x 4 inches tall (30 cm x 20 cm x 10 cm)\n**Price:** $19.99 (single unit), $14.99 (bundle deal)\n\n3. **IVAR Drawer Organizer**: This product has a more extensive range of customization options, including various drawer sizes and configurations. However, it's pricier than the Kocksk\u00e5p, with an MSRP of $49.99 for a single unit.\n\n**Dimensions:** Adjustable dimensions up to 24 inches wide x 18 inches deep x 6 inches tall (60 cm x 45 cm x 15 cm)\n**Price:** $49.99 (single unit), $39.99 (bundle deal)\n\nConsidering your requirements, I recommend the MALM Drawer Organizer as the most suitable alternative to the Kocksk\u00e5p. Its modular design and adjustable dividers provide flexibility in organizing your kitchen drawers while maintaining an affordable price point.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 11.225819826126099,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:48.953193"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Help me organize my kitchen drawers",
+      "response": "**Drawer Organization System:**\nTo maximize storage space and efficiency, I recommend the **MALM Drawer Organizer System** (Price: $49.99 - $69.99). This system features adjustable dividers, baskets, and inserts that can be customized to fit your specific needs. The MALM system is designed for medium to large-sized drawers ( approx. 18-24 inches wide) and can be easily installed without any tools.\n\n**Drawer Dividers:**\nFor optimal organization, I suggest using the **BJURSTA Drawer Dividers** (Price: $9.99 - $14.99 each). These dividers are made of durable plastic and come in various sizes to accommodate different types of items. They can be adjusted to separate utensils, cookware, or food items within the drawer.\n\n**Drawer Baskets:**\nTo keep frequently used items accessible, consider the **FYNDIG Drawer Baskets** (Price: $19.99 - $29.99 each). These baskets have a sturdy design and come in various sizes to store spices, oils, cleaning supplies, or other essentials.\n\n**Drawer Liners:**\nTo protect your drawers from spills and stains, I recommend the **KVARNVIK Drawer Liner** (Price: $9.99 - $14.99). This liner is easy to clean and has a textured surface that prevents items from slipping around.\n\n**Additional Recommendations:**\n\n* Consider installing a **MALM Drawer Pulls** (Price: $4.99 - $7.99 each) for easy access to your drawers.\n* If you have limited natural light in your kitchen, consider using LED under-cabinet lighting or a pendant light above your island or peninsula to enhance visibility.\n* To maintain a clutter-free kitchen, invest in a **SKUBB Spice Rack** (Price: $19.99 - $29.99) for your countertop or wall-mounted spice storage.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.361839056015015,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:37:57.315132"
+    },
+    {
+      "strategy": "basic",
+      "query": "Need solutions for shoe storage",
+      "response": " \nFor a shoe storage solution, I recommend the following products:\n\n1. **KALLAX Shelving Unit**: This versatile shelving unit is perfect for storing shoes, accessories, and other items in your entryway or mudroom. It's available in various sizes, including 3-shelf (W: 120 cm x D: 30 cm x H: 145 cm) and 5-shelf (W: 120 cm x D: 30 cm x H: 185 cm). The KALLAX shelf is made of particleboard with a melamine surface and has a sturdy design that can hold up to 25 kg per shelf.\n\nPrice: $49.99 - $69.99\n\n2. **MALM Storage Bench**: This storage bench is an excellent option for storing shoes, as it features a lift-up lid that provides easy access to the storage compartment. The MALM bench is available in various sizes, including W: 60 cm x D: 40 cm x H: 45 cm and W: 90 cm x D: 40 cm x H: 45 cm. It's made of particleboard with a melamine surface and has a weight capacity of up to 50 kg.\n\nPrice: $29.99 - $39.99\n\n3. **IVAR Shelving Unit with Drawers**: If you need more storage space for shoes and other items, consider the IVAR shelving unit with drawers. This product features adjustable shelves and drawers that can be customized to fit your needs. The IVAR unit is available in various sizes, including W: 120 cm x D: 30 cm x H: 185 cm and W: 180 cm x D: 30 cm x H: 185 cm.\n\nPrice: $99.99 - $149.99\n\n4. **FYNDIG Shoe Rack**: For a more compact shoe storage solution, consider the FYNDIG shoe rack. This product features three tiers of shoe storage and is designed to fit snugly into tight spaces. The FYNDIG shoe rack measures W: 60 cm x D: 20 cm x H: 80 cm and has a weight capacity of up to 10 kg per tier.\n\nPrice: $19.99\n\nAll of these products are available at IKEA stores or online, and they offer great value for their price.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 6.46713924407959,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:03.782610"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Need solutions for shoe storage",
+      "response": " \n**Recommendation 1: Adjustable Height and Multiple Tiers**\nFor a shoe storage solution with adjustable height and multiple tiers, I recommend the following products:\n- **MALM 5-shelf storage unit**: This versatile storage unit features five shelves with adjustable height settings, allowing you to customize the space according to your needs. The shelves are made of sturdy particleboard and have a compact design that fits well in small spaces. Dimensions: 71.7\" H x 31.5\" W x 17.3\" D. Price: $99.\n- **IVAR shelving unit**: This shelving unit offers adjustable height settings and can be customized to fit your specific needs. It features four shelves with a maximum load capacity of 44 lbs per shelf. Dimensions: 71.7\" H x 31.5\" W x 17.3\" D. Price: $129.\n\n**Recommendation 2: Alternative to Shoe Closets - Shoe Cubbies, Ottomans, and Benches with Storage**\nFor an alternative to traditional shoe closets, consider these options:\n- **KALLAX shelving unit with storage bench**: This compact shelving unit features a built-in storage bench that provides additional seating and storage space for shoes or other items. The bench has a removable cushion cover for easy cleaning and maintenance. Dimensions: 29.5\" H x 31.5\" W x 17.3\" D (bench), Price: $149.\n- **BJURSTA ottoman storage**: This stylish ottoman features a hinged top that lifts up to reveal a spacious storage compartment perfect for storing shoes or other items. The ottoman is upholstered in durable fabric and has a sturdy wooden base for stability. Dimensions: 18\" H x 24\" W x 24\" D, Price: $99.\n\n**Recommendation 3: Customizable Shoe Organizers with Breathable Materials and Compact Designs**\nFor customizable shoe organizers with breathable materials and compact designs, consider these options:\n- **KVARTERSKLIPPER shoe organizer**: This modular shoe organizer features breathable mesh panels and can be customized to fit your specific needs. It's designed for compact spaces and can hold up to six pairs of shoes per module. Dimensions (per module): 12\" H x 6\" W x 6\" D, Price: $29 (per module).\n- **FYNDIG shoe organizer**: This compact shoe organizer features breathable mesh panels and can be customized to fit your specific needs. It's designed for small spaces and can hold up to three pairs of shoes per module. Dimensions (per module): 12\" H x 4\" W x 4\" D, Price: $19 (per module).\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.586004972457886,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:12.368967"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Need solutions for shoe storage",
+      "response": "1. **MALM 3-drawer dresser**: Although it has storage space, it's not specifically designed for shoe storage and lacks the modular design and adjustable shelves you're looking for.\n2. **BJURSTA side table**: This product is a small side table with storage, but it doesn't meet your requirements for shoe storage capacity or adjustable shelves.\n3. **KVARTERSKLIPPER shoe rack**: This product is a single-tier shoe rack that can hold up to 6 pairs of shoes, but it doesn't offer the same level of customization or cable management as KOMPAKT.\n4. **KOMPAKT compact shoe storage system**: This product matches your ideal description exactly, offering a modular design, adjustable shelves, rotating baskets, and cable management features.\n\nBased on your requirements, I recommend the following products:\n\n* **KOMPAKT compact shoe storage system** (White): $129 USD\n\t+ Dimensions: 60 cm x 30 cm x 80 cm (23.6 in x 11.8 in x 31.5 in)\n\t+ Adjustable shelves: 10 cm to 40 cm (3.9 in to 15.7 in)\n\t+ Basket diameter: 25 cm (9.8 in)\n\t+ Material thickness: 1 mm (0.04 in)\n\t+ Color options: White, Black, Gray, Beige\n* **KOMPAKT compact shoe storage system** (Black): $139 USD\n\t+ Same dimensions and features as the White version\n\nBoth options are available for purchase online or in-store at IKEA.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 12.105994939804077,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:24.475184"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Need solutions for shoe storage",
+      "response": "**Space-Saving Shoe Storage Solutions:**\n\nGiven the moderate to small footprint of your space, I recommend exploring compact and multi-functional storage options. Here are a few ideas:\n\n1. **MALM 6-Drawer Dresser** ($399-$499): This versatile dresser can serve as a shoe storage unit, offering six drawers with adjustable dividers to accommodate various shoe sizes. It's compact, measuring 35.4\" W x 19.7\" D x 63.8\" H, making it perfect for small spaces.\n2. **KALLAX Shelving Unit** ($99-$199): This shelving unit is designed for maximum storage efficiency. You can use it to store shoes, bags, or accessories while keeping them organized and easily accessible. The KALLAX comes in various configurations, including a compact version (35.4\" W x 17.3\" D x 71.7\" H) that fits snugly into tight spaces.\n3. **IVAR Shelving Unit** ($99-$199): Similar to the KALLAX, IVAR offers customizable shelving solutions that can be adapted to fit your specific needs. You can use it to store shoes, boots, or other items while maintaining a clutter-free space.\n\n**Additional Recommendations:**\n\nTo maximize storage capacity and keep your shoes organized:\n* Use **BINNIE Storage Bins** ($9-$19) to store smaller items like socks or accessories within the MALM or KALLAX units.\n* Consider adding a **LACK Coffee Table** ($29-$49) or **BJURSTA Side Table** ($29-$49) to create a convenient spot for placing shoes or storing additional items.\n\n**Lighting Suggestions:**\nTo enhance the functionality of your shoe storage area:\n* Install a stylish and energy-efficient LED strip light under the shelves or along the back of the MALM or KALLAX units using IKEA's **LYSP\u00c4TTER LED Strip Lighting** ($9-$19).\n* Add a table lamp or floor lamp near the entryway or mudroom area to provide task lighting for putting on shoes.\n\nThese recommendations should help you create an efficient and functional shoe storage solution that suits your space constraints.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.321439027786255,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:33.796755"
+    },
+    {
+      "strategy": "basic",
+      "query": "Looking for closet organization systems",
+      "response": " \nFor a comprehensive closet organization system, I recommend the following products:\n \n1. **KOMPLEMENT KOMPLEMENT Shelf Unit** (Price: $29.99)\nThis versatile shelf unit is perfect for maximizing storage space in your closet. It's available in various sizes, including 30\", 40\", and 60\" wide options. The shelves are adjustable, allowing you to customize the layout to fit your needs. You can also add additional shelves or drawers to create a customized storage solution.\n \n2. **MALM 6-Drawer Dresser** (Price: $299-$399)\nThis dresser provides ample storage for clothing and accessories. It features six spacious drawers with soft-close drawer glides and a sturdy frame that can hold up to 100 pounds per drawer. The MALM dresser is available in various sizes, including compact options for smaller closets.\n \n3. **BJURSTA Side Table** (Price: $19.99-$29.99)\nThis side table can be used as a convenient spot for folding clothes or storing small items like shoes or accessories. Its compact size makes it perfect for small closets or entryways.\n \n4. **KVARTERSKLIPPER Hooks** (Price: $9.99-$14.99)\nThese hooks are ideal for hanging belts, hats, scarves, or bags. They're easy to install and come in various sizes to accommodate different types of items.\n \n5. **FYNDIG Storage Bins** (Price: $9.99-$19.99)\nThese storage bins are great for storing socks, underwear, or other small items in your closet. They're made of durable plastic and come in various sizes to fit your specific needs.\n\nTo complete the look and functionality of your closet organization system, consider adding some decorative elements like the FYNDIG Wall Shelves (Price: $29.99) or the KVARTERSKLIPPER Shelf Liners (Price: $9.99).\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 5.4732701778411865,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:39.270293"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Looking for closet organization systems",
+      "response": " \n**For Customizable Closet Organizers with Adjustable Shelves and Drawers for Small Spaces:**\n\n1. **MALM 3-Drawer Chest**: This versatile storage unit features adjustable shelves and drawers, perfect for small spaces. It's 30 inches wide, 18 inches deep, and 60 inches tall. The MALM series is known for its sleek design and affordability.\n\t* Price: $129.99\n\t* Benefits: Space-saving design, adjustable shelves, and drawers for customizable storage.\n2. **IVAR Shelving Unit**: This shelving system is designed for small spaces and can be customized to fit your needs. It features adjustable shelves and can be combined with other IVAR components for a tailored solution.\n\t* Price: $99-$299 (depending on configuration)\n\t* Benefits: Versatile design, adjustable shelves, and expandable to fit various space requirements.\n\n**For Alternative Closet Organizers: Shelving Units, Hooks, and Storage Bins for Maximizing Vertical Space:**\n\n1. **KALLAX Shelving Unit**: This shelving system is designed to maximize vertical space while keeping your closet organized. It features adjustable shelves and can be combined with other KALLAX components.\n\t* Price: $149-$299 (depending on configuration)\n\t* Benefits: Space-saving design, adjustable shelves, and expandable to fit various space requirements.\n2. **BJURSTA Storage Bins**: These bins are perfect for storing items like sweaters, out-of-season clothes, or accessories. They're made of durable plastic and come in various sizes.\n\t* Price: $9.99-$19.99 (depending on size)\n\t* Benefits: Affordable, durable, and easy to clean.\n\n**For Closet Organizers Made from Solid Wood with Double Rods and Shoe Racks:**\n\n1. **PAX Wardrobe System**: This solid wood wardrobe system features double rods and shoe racks, perfect for maximizing hanging space. It's available in various widths up to 72 inches.\n\t* Price: $499-$999 (depending on configuration)\n\t* Benefits: High-quality solid wood construction, double rods for increased hanging capacity, and shoe racks for added storage.\n2. **HEMNES Shoe Rack**: This shoe rack is made from solid wood and features a sleek design that fits perfectly under the PAX wardrobe system or as a standalone piece.\n\t* Price: $49.99\n\t* Benefits: Durable solid wood construction, compact design, and easy-to-assemble.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.947865724563599,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:38:47.218231"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Looking for closet organization systems",
+      "response": "1. **MALM 3-Drawer Dresser**: This product has a fixed design, which doesn't meet the modular requirement. However, it does offer soft-close drawers and adjustable shelves for storage flexibility.\n\t* Dimensions: 63\" (160 cm) wide x 18\" (46 cm) deep x 30\" (76 cm) tall\n\t* Price: $299\n2. **BJURSTA 4-Shelf Unit**: This product features adjustable shelves but lacks soft-close drawers and built-in hooks.\n\t* Dimensions: 47\" (119 cm) wide x 15\" (38 cm) deep x 72\" (183 cm) tall\n\t* Price: $199\n3. **FYNDIG Closet Organizer Kit**: This product offers a customizable design with interchangeable modules, adjustable shelving, and soft-close drawers.\n\t* Dimensions: Customizable to fit any closet size or shape\n\t* Price: $499-$699 (depending on configuration)\n4. **KVARTERSKLIPPER Shelving Unit**: This product features adjustable shelving and a sleek design but lacks soft-close drawers and built-in hooks.\n\t* Dimensions: 47\" (119 cm) wide x 15\" (38 cm) deep x 72\" (183 cm) tall\n\t* Price: $249\n\nBased on your ideal requirements, I recommend the FYNDIG Closet Organizer Kit as the best match. It meets all your key feature requirements, including modular design, adjustable shelving, soft-close drawers, hanging rods with built-in hooks, and LED lighting.\n\n**Recommended Configuration:** To maximize storage capacity and customization options, consider the following configuration:\n\t+ FYNDIG Closet Organizer Kit ($499-$699)\n\t+ Additional shelves or drawers can be added to increase storage capacity\n\t+ LED lighting strips can be installed for ambient lighting\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 12.864114046096802,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:00.082761"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Looking for closet organization systems",
+      "response": "**Closet Organization System Recommendation:**\n\nConsidering your space constraints and functional requirements, I recommend the **KOMPLEMENT system**. This modular closet organizer is designed to maximize storage space in compact areas.\n\n**Components:**\n\n1.  **KOMPLEMENT Double Rod**: A sturdy, adjustable rod that can be mounted on the wall or on the back of a door. It's perfect for hanging clothes, jackets, and coats. ($29.99)\n\t* Dimensions: 60\" (152 cm) long x 2\" (5 cm) wide\n\t* Weight capacity: 44 lbs (20 kg)\n2.  **KOMPLEMENT Drawer Unit**: A versatile drawer unit with adjustable dividers for storing folded clothes, accessories, and personal items. It's ideal for keeping your belongings organized and easily accessible.\n\t* Dimensions: 30\" (76 cm) wide x 12\" (30 cm) deep x 24\" (61 cm) high\n\t* Price: $49.99\n3.  **KOMPLEMENT Shelf Unit**: A compact shelf for storing folded items like sweaters, jeans, or out-of-season clothes. It's perfect for maximizing vertical space.\n\t* Dimensions: 30\" (76 cm) wide x 12\" (30 cm) deep x 24\" (61 cm) high\n\t* Price: $39.99\n4.  **KOMPLEMENT Shoe Rack**: A slim shoe rack that can hold up to 6 pairs of shoes, keeping them organized and within reach.\n\t* Dimensions: 24\" (61 cm) wide x 12\" (30 cm) deep x 18\" (46 cm) high\n\t* Price: $29.99\n\n**Additional Recommendations:**\n\n1. **LED Strip Lighting**: Add some task-oriented lighting to your closet with our affordable LED strip lights ($9.99). They're energy-efficient and provide soft, warm light for getting dressed in the morning.\n2. **Storage Bins**: Use our KALLAX storage bins ($9.99-$14.99 each) to store small items like socks, underwear, or accessories.\n\n**Total Estimated Cost:** Approximately $158-$169\n\n**Benefits:**\n\n* Maximizes storage space in compact areas\n* Adjustable components allow for customization to fit your specific needs\n* Durable and easy-to-assemble design\n* Affordable prices without compromising on quality\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.93302607536316,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:10.015907"
+    },
+    {
+      "strategy": "basic",
+      "query": "Want a standing desk with good cable management",
+      "response": " \nFor a standing desk, I recommend the IKEA Linnmon/ADILS table. It's a versatile and adjustable desk that can be used in both sitting and standing positions. The Linnmon tabletop is made of high-quality particleboard with a durable surface finish, and it's available in various sizes to fit your space.\n\nThe ADILS legs are designed for easy height adjustment, allowing you to switch between sitting and standing throughout the day. The legs are also equipped with built-in cable management features, including cable ties and a cable channel to keep your workspace organized.\n\nTo complement the Linnmon/ADILS table, I suggest pairing it with the SKUBB storage unit. This compact storage unit provides ample space for your office supplies, papers, and other essentials. It features adjustable shelves and drawers to help you stay organized and maximize your workspace.\n\nFor cable management, I recommend the FYNDIG cable organizer box. This sleek and compact box is designed to keep your cables tidy and within reach. It has multiple compartments to store different types of cables, adapters, and other small items.\n\nLastly, consider adding the FYNDIG cable ties to keep your cables secure and organized. These ties come in various lengths and colors to match your workspace decor.\n\nHere are the product details:\n\n* Linnmon/ADILS table:\n\t+ Dimensions: 59 1/2\" x 31 1/2\" (150 cm x 80 cm)\n\t+ Height adjustment: 29 1/2\" - 47 1/4\" (75 cm - 120 cm)\n\t+ Price: $99-$149\n* SKUBB storage unit:\n\t+ Dimensions: 23 5/8\" x 11 7/8\" x 23 5/8\" (60 cm x 30 cm x 60 cm)\n\t+ Adjustable shelves: Yes\n\t+ Price: $29-$49\n* FYNDIG cable organizer box:\n\t+ Dimensions: 10\" x 6\" x 2\" (25 cm x 15 cm x 5 cm)\n\t+ Multiple compartments: Yes\n\t+ Price: $9-$19\n* FYNDIG cable ties:\n\t+ Lengths: Various (10\", 20\", or custom lengths)\n\t+ Colors: Various (black, white, or custom colors)\n\nThese products will provide you with a comprehensive solution for your standing desk needs while keeping your workspace organized and clutter-free.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 6.863302946090698,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:16.879297"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Want a standing desk with good cable management",
+      "response": " \n**Standing Desks with Cable Management Systems:**\n\n1. **IKEA Bekant Standing Desk**: This desk offers a built-in cable management system with a cable tray and cord organizers. It's height-adjustable, allowing you to switch between sitting and standing throughout the day. The desk is made of sturdy steel and has a large surface area (59\" x 31.5\"). Price: $399.\n2. **IKEA Micke Standing Desk**: Similar to the Bekant, this desk features a cable management system with a cable tray and cord organizers. It's also height-adjustable and has a smaller surface area (47\" x 23.6\"). Price: $299.\n\n**Ergonomic Workstation Alternatives to Standing Desks for Cable Organization:**\n\n1. **IKEA KALLAX Shelving Unit**: This shelving unit can be used as an ergonomic workstation with built-in cable management features like cable ties and cord organizers. It's adjustable in height and has multiple shelves for storing office supplies. Dimensions: 31.5\" x 15.7\" x 29.5\". Price: $99.\n2. **IKEA Linnmon Table**: This table can be used as an ergonomic workstation with built-in cable management features like cable ties and cord organizers. It's adjustable in height and has a compact design (47\" x 23.6\"). Price: $149.\n\n**Adjustable Height Desks with Built-in Cable Trays and Cord Organizers:**\n\n1. **IKEA Bekant Adjustable Height Desk**: This desk features a built-in cable tray and cord organizers, making it an ideal choice for those who want both ergonomic benefits and good cable management. It's height-adjustable, sturdy, and has a large surface area (59\" x 31.5\"). Price: $499.\n2. **IKEA Micke Adjustable Height Desk**: Similar to the Bekant, this desk features a built-in cable tray and cord organizers, along with being height-adjustable and having a smaller surface area (47\" x 23.6\"). Price: $399.\n\nAll of these options offer excellent cable management systems, but if you're looking for something more affordable, consider the IKEA KALLAX Shelving Unit or Linnmon Table as ergonomic workstations.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.110382080078125,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:23.989871"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Want a standing desk with good cable management",
+      "response": " \n1. **IKEA Bekant Desk**: This product is a height-adjustable desk with a sturdy steel frame, but it doesn't have an integrated cable management system or USB hub. However, it's a great option if you're looking for a more affordable alternative to the FlexiDesk Pro.\n\n   * Price: $149-$249 CAD\n   * Dimensions: 120 cm x 80 cm (47.2 in x 31.5 in)\n   * Height range: 72 cm - 125 cm (28.3 in - 49.2 in)\n\n2. **IKEA Micke Desk**: This compact desk has a built-in cable management system and USB ports, but it's not height-adjustable and has a smaller surface area.\n\n   * Price: $99-$199 CAD\n   * Dimensions: 60 cm x 80 cm (23.6 in x 31.5 in)\n   * Cable management system with grommets and cable ties\n\n3. **IKEA Linnmon Table Top**: This is a separate table top that can be paired with the IKEA Micke or other desks for added cable management and USB ports.\n\n   * Price: $29-$49 CAD\n   * Dimensions: 120 cm x 80 cm (47.2 in x 31.5 in)\n   * Integrated cable management system with grommets and cable ties\n\n4. **IKEA KALLAX Shelving Unit**: This shelving unit can be used as additional storage for office supplies, books, or decorative items.\n\n   * Price: $29-$99 CAD\n   * Dimensions: Various sizes available (30 cm x 40 cm x 20 cm / 11.8 in x 15.7 in x 7.9 in)\n\nConsidering your requirements, I recommend the following products:\n\n* For the main desk, consider the **Bekant Desk** as a more affordable alternative to the FlexiDesk Pro.\n* For additional storage and cable management, pair the **Linnmon Table Top** with the **KALLAX Shelving Unit**.\n* If you prefer a more compact setup, use the **Micke Desk** as the main desk and add the **Linnmon Table Top** for extra storage and USB ports.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 13.132368803024292,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:37.122304"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Want a standing desk with good cable management",
+      "response": "**Standing Desk Recommendation:**\nConsidering your need for a compact and affordable standing desk with good cable management, I recommend the IKEA Bekant Standing Desk (approx. $299). This desk is designed to be space-efficient, with a width of 47.2 inches (120 cm) and a depth of 31.5 inches (80 cm), making it perfect for small home offices or workspaces.\n\nThe Bekant Standing Desk features a sleek and modern design, with a sturdy frame made from high-quality steel and a durable work surface made from MDF. The desk has a smooth, easy-to-clean surface and comes in several color options to match your home office decor.\n\n**Cable Management Solution:**\nTo address your cable management needs, I suggest pairing the Bekant Standing Desk with the IKEA SKUBB Cable Organizer (approx. $9.99). This cable organizer is designed to keep your workspace tidy by providing a convenient place to store cables, wires, and other small items. It's easy to install and can be attached to the underside of the desk or wall.\n\n**Additional Recommendations:**\n\n* To enhance lighting in your workspace, consider adding the IKEA FYNDIG Table Lamp (approx. $29.99). This lamp provides soft, warm lighting and has a compact design that won't take up too much space.\n* If you're concerned about noise levels or want to create a more immersive work environment, consider adding the IKEA FYNDIG Sound Absorbing Panel (approx. $49.99). This panel helps reduce echo and ambient noise, creating a more focused work environment.\n\n**Dimensions and Measurements:**\n\n* Bekant Standing Desk:\n\t+ Width: 47.2 inches (120 cm)\n\t+ Depth: 31.5 inches (80 cm)\n\t+ Height: Adjustable (28-48 inches / 70-122 cm)\n* SKUBB Cable Organizer:\n\t+ Dimensions: 12 x 4 x 1 inches (30 x 10 x 2.5 cm)\n* FYNDIG Table Lamp:\n\t+ Height: 24 inches (60 cm)\n\t+ Diameter: 12 inches (30 cm)\n* FYNDIG Sound Absorbing Panel:\n\t+ Dimensions: 23 x 15 x 1 inch (58 x 38 x 2.5 cm)\n\n**Total Cost:** Approximately $358.97\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 10.03986668586731,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:47.162400"
+    },
+    {
+      "strategy": "basic",
+      "query": "Need a murphy bed for my guest room",
+      "response": " \n1. **MALM Murphy Bed Frame**: This is a versatile and space-saving option for your guest room. The MALM Murphy bed frame is designed to be mounted on the wall, providing ample floor space when not in use. It's available in various sizes, including Twin, Full/Queen, and King.\n\nMeasurements:\n- Twin: 38\" H x 75\" W x 39\" D\n- Full/Queen: 38\" H x 80\" W x 39\" D\n- King: 38\" H x 86\" W x 39\" D\n\nPrice:\n- Twin: $299-$399\n- Full/Queen: $349-$449\n- King: $399-$499\n\nBenefits:\n- Space-saving design for small rooms or guest rooms\n- Easy to assemble and install\n- Can be paired with any IKEA mattress\n\n2. **KVARTERSKLIPPER Wall-Mounted Bed Frame**: This is another great option for a guest room, offering a sleek and modern look. It features a fold-down design that allows for easy access to the bed.\n\nMeasurements:\n- Twin: 37.5\" H x 75.5\" W x 35.5\" D (folded), 76.5\" H x 75.5\" W x 35.5\" D (unfolded)\n- Full/Queen: 37.5\" H x 81.5\" W x 35.5\" D (folded), 77.5\" H x 81.5\" W x 35.5\" D (unfolded)\n- King: Not available\n\nPrice:\n- Twin: $299-$399\n- Full/Queen: $349-$449\n\nBenefits:\n- Sleek and modern design\n- Easy to assemble and install\n- Can be paired with any IKEA mattress\n\n3. **BJURSTA Murphy Bed**: This is a more budget-friendly option that still offers a stylish and functional design.\n\nMeasurements:\n- Twin: 36.8\" H x 74.8\" W x 36.8\" D\n- Full/Queen: Not available\n- King: Not available\n\nPrice:\n- Twin: $199-$299\n\nBenefits:\n- Affordable price point\n- Easy to assemble and install\n- Can be paired with any IKEA mattress\n\nFor your specific needs, I recommend considering the MALM Murphy Bed Frame or KVARTERSKLIPPER Wall-Mounted Bed Frame, as they offer more size options and are suitable for most guest rooms.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.108301639556885,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:39:54.270993"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Need a murphy bed for my guest room",
+      "response": " \n**Compact Guest Bed Solutions for Small Rooms:**\nConsidering your need for a compact solution, I recommend the following products:\n1. **MALM Wall-Mounted Fold-Down Bed** (Price: $299-$399): This space-saving bed is perfect for small rooms. It folds down from the wall when needed and has a sturdy design to support up to 250 lbs. The MALM bed measures 39.4\" W x 75.2\" L x 3.5\" H when folded up and 75.2\" W x 39.4\" L x 38.6\" H when folded down.\n2. **PO\u00c4NG Wall-Mounted Bed** (Price: $499-$599): Another great option for compact spaces, this bed features a sleek design and can be mounted on the wall or on the floor. It measures 43.7\" W x 79.1\" L x 3.9\" H when folded up and 79.1\" W x 43.7\" L x 38.6\" H when folded down.\n\n**Space-Saving Furniture Alternatives to Traditional Beds:**\nFor those who want to explore alternatives to traditional beds, consider these options:\n1. **KLIPPAN Sofa Bed** (Price: $699-$899): A versatile sofa bed that converts into a comfortable sleeping space, perfect for guest rooms or home offices.\n2. **BJURSTA Daybed** (Price: $499-$699): A stylish daybed with storage options, ideal for small rooms where space is limited.\n\n**Murphy Bed Designs with Storage and Fold-Down Desk Options in Queen Size:**\nFor those seeking a queen-sized Murphy bed with storage and desk options, I recommend:\n1. **IVAR Murphy Bed with Desk** (Price: $999-$1,299): This queen-sized Murphy bed features a fold-down desk and ample storage space beneath the bed frame.\n\t* Measurements: 63\" W x 83\" L x 40\" H\n\t* Desk dimensions: 30\" W x 60\" L\n2. **KVARTERSKLIPPER Murphy Bed with Storage** (Price: $1,299-$1,599): A stylish Murphy bed with a fold-down desk and storage compartments beneath the bed frame.\n\t* Measurements: 63\" W x 83\" L x 40\" H\n\t* Desk dimensions: 30\" W x 60\" L\n\nAll of these products are designed to provide comfort and functionality while saving space in your guest room.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 7.869642972946167,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:02.140715"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Need a murphy bed for my guest room",
+      "response": "1. **MALM Murphy Bed**:\n\t* Dimensions: 75\" x 39\" (191 cm x 99 cm)\n\t* Folded dimensions: 39\" x 24\" x 6.7\" (99 cm x 61 cm x 17 cm)\n\t* Maximum weight capacity: 450 lbs (204 kg)\n\t* Soft-close mechanism for smooth folding and unfolding\n\t* Integrated LED lighting strip under the bed frame for ambient lighting\n\t* USB ports and power outlets built into the headboard for convenient charging\n\t* Frame: Powder-coated aluminum with a sleek, matte finish in a choice of three colors: White, Gray, or Oak Wood Veneer\n\t* Headboard and footboard: Made from high-density particleboard with a durable melamine coating in a matching color to the frame\n\t* Slats: Made from solid wood (Oak or Pine) with a natural finish\n\t* Mattress support system: Adjustable slats with a maximum load capacity of 300 lbs (136 kg) per slat\n\t* Two large storage drawers (18\" x 12\" x 6\") under the bed frame, perfect for storing linens, out-of-season clothing, or luggage\n\t* One small drawer (12\" x 8\" x 4\") above the headboard for storing personal items like books, glasses, or jewelry\n\t* A hidden compartment behind the headboard for storing valuable items like laptops, tablets, or important documents\n\t* A fold-down shelf on the side of the bed frame for displaying decorative items or storing small accessories\n\nPrice: $499.99 USD\n\nThis product matches your ideal description perfectly.\n\n2. **BJURSTA Murphy Bed**:\n\t* Dimensions: Not available in your preferred size.\n3. **KVARTERSKLIPPER Murphy Bed**:\n\t* Dimensions: Not available in your preferred size.\n4. **KVARTERSKLIPPER Wall-Mounted Bed**:\n\t* Dimensions: Not available in your preferred size.\n\nBased on your requirements, I recommend purchasing the MALM Murphy Bed.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 12.643628597259521,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:14.784668"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Need a murphy bed for my guest room",
+      "response": "**Murphy Bed Recommendation:**\nFor a compact guest room with limited space, I recommend the **MALM Wall-Mounted Fold-Down Bed** (Price: $299). This bed is designed for small spaces and can be folded up against the wall when not in use, freeing up floor space. It's available in various sizes, including Twin (39\" x 75\"), Full (54\" x 75\"), and Queen (60\" x 80\").\n\n**Storage Solution:**\nTo address storage needs, I suggest the **MALM 6-Drawer Dresser** (Price: $129). This compact dresser has six drawers to store guests' belongings and can fit snugly into a corner or against a wall. Its dimensions are 30\" wide x 18\" deep x 30\" high.\n\n**Additional Furniture Recommendations:**\n\n1. **NORRSP\u00c4NNAR Nightstand**: A compact nightstand that fits perfectly beside the MALM Wall-Mounted Fold-Down Bed. It has a small footprint of 15\" wide x 20\" deep x 24\" high and features two drawers for storing essentials like books, glasses, or a phone charger. Price: $29.\n2. **PO\u00c4NG Chair**: A versatile reading chair that can be used as a comfortable seating option for guests. It's lightweight, easy to move around, and has a compact design that won't take up too much space. Dimensions: 25\" wide x 25\" deep x 32\" high. Price: $99.\n\n**Additional Tips:**\n\n* Consider using the **BJURSTA Side Table** (Price: $19) as an additional surface for lamps, books, or decorative items.\n* If you have limited natural light, consider adding some ambient lighting with the **FYNDIG Table Lamp** (Price: $29).\n\nThese recommendations should provide a comprehensive solution for your guest room needs while maximizing space efficiency.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.079271078109741,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:22.864014"
+    },
+    {
+      "strategy": "basic",
+      "query": "Looking for modular shelving systems",
+      "response": " \nFor a modular shelving system, I recommend considering the KALLAX series. This versatile and customizable system offers a wide range of components that can be combined to create a tailored storage solution for your space.\n\n**KALLAX Shelving Unit (Item #):**\nThe KALLAX shelving unit is a great starting point for your modular system. It's available in various sizes, including 3-shelf (KALLAX 3-shelf) and 4-shelf (KALLAX 4-shelf) options. The dimensions are as follows:\n- Height: 30 inches (76 cm)\n- Width: 31.5 inches (80 cm)\n- Depth: 15.7 inches (40 cm)\n\nThe price for the KALLAX shelving unit starts at $49.99 for the basic version.\n\n**Additional Components:**\nTo expand your modular system, you can add various components such as shelves, drawers, and cabinets. Some popular options include:\n- KALLAX shelf extension (adds an extra shelf): $19.99\n- KALLAX drawer unit (holds 2 drawers): $69.99\n- KALLAX cabinet unit (holds 2 doors and shelves): $99.99\n\n**Benefits:**\nThe KALLAX system offers several benefits, including:\n- Customizable design to fit your space and needs\n- Easy assembly with Allen wrench\n- Durable and sturdy construction\n- Versatile storage options with various components available\n\n**Additional Tips:**\nWhen building your modular shelving system, consider the following tips:\n- Measure your space carefully before purchasing components\n- Choose components that fit your desired style and functionality\n- Consider adding casters or wheels for easy mobility\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 4.781383752822876,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:27.645678"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Looking for modular shelving systems",
+      "response": " \n**Adjustable Shelving Systems for Home Office Organization:**\nFor a home office, you'll want a shelving system that's flexible and adaptable to your changing needs. I recommend the **BJURSTA TV Unit** (approx. $99). This unit features adjustable shelves, allowing you to customize the storage space according to your requirements. It has a sturdy design, with a maximum load capacity of 44 lbs per shelf. The BJURSTA TV Unit is also compact, measuring 31.5 inches wide, 15.7 inches deep, and 29.1 inches tall.\n\n**Space-Saving Storage Solutions for Small Apartments:**\nFor small apartments, it's essential to maximize vertical space while keeping the footprint minimal. I suggest the **MALM 3-Drawer Chest** (approx. $129) paired with the **MALM Wall-Mounted Shelf** (approx. $49). The MALM 3-Drawer Chest provides ample storage for clothing and personal items, while the wall-mounted shelf keeps frequently used items within easy reach without taking up floor space.\n\n**Customizable Wall-Mounted Shelving Units with 36 inch Depth and Reclaimed Wood Finish:**\nIf you're looking for a unique, customizable shelving solution with a reclaimed wood finish, consider the **KVARTERSKLIPPER Shelving Unit** (approx. $299). This modular system allows you to create a customized layout using various components, including shelves, cabinets, and drawers. The KVARTERSKLIPPER Shelving Unit has a depth of 35.4 inches and can be mounted on walls or freestanding.\n\nTo further enhance your home office organization and storage needs, consider adding the following accessories:\n* A set of **MALM Drawer Organizers** (approx. $19) to keep your workspace clutter-free.\n* A **BJURSTA Desk Lamp** (approx. $29) for task lighting.\n* A **MALM File Cabinet** (approx. $99) for secure document storage.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 6.25136923789978,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:33.897255"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Looking for modular shelving systems",
+      "response": "1. **MALM 3-Drawer Chest**:\n\t* Dimensions: 63.5 x 31.5 x 29.5 inches (161 x 80 x 75 cm)\n\t* Material: Particleboard with a melamine finish\n\t* Price: $99-$149 USD\n\t* Features: Three drawers with soft-close mechanisms, suitable for storing clothing, linens, or office supplies.\n\t* Recommendation: While the MALM 3-Drawer Chest is a great storage solution, it doesn't offer the same level of customization as KOMPLET. However, it's a more affordable option for those who prioritize a simple, no-frills design.\n\n2. **BJURSTA Side Table**:\n\t* Dimensions: 24 x 24 x 18 inches (61 x 61 x 46 cm)\n\t* Material: Solid wood with a natural finish\n\t* Price: $49.99-$69.99 USD\n\t* Features: A compact side table with one shelf and two drawers for storing small items.\n\t* Recommendation: The BJURSTA Side Table is a great addition to any room but lacks the modular design and adjustable height settings of KOMPLET.\n\n3. **HEMNES Bookcase**:\n\t* Dimensions: 71.7 x 31.5 x 29.5 inches (182 x 80 x 75 cm)\n\t* Material: Solid wood with a natural finish\n\t* Price: $199-$299 USD\n\t* Features: A sturdy bookcase with adjustable shelves and doors for secure storage.\n\t* Recommendation: The HEMNES Bookcase offers more storage capacity than KOMPLET but is less customizable and has fixed shelves.\n\n4. **KVARTERSKLIPPER Shelving Unit**:\n\t* Dimensions: Adjustable height (24-48 inches / 61-122 cm), width (30 inches / 76 cm), depth (12 inches / 30 cm)\n\t* Material: Particleboard with a melamine finish\n\t* Price: $49.99-$79.99 USD per module\n\t* Features: A modular shelving system with adjustable height settings and cable management systems.\n\t* Recommendation: The KVARTERSKLIPPER Shelving Unit closely matches your ideal product description, offering adjustable height settings and cable management systems at an affordable price point.\n\nBased on your requirements, I recommend the **KVARTERSKLIPPER Shelving Unit** as the best match for your needs.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 14.911628007888794,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:48.809061"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Looking for modular shelving systems",
+      "response": "**Modular Shelving System Recommendation:**\n\nConsidering your requirements, I recommend the **BJURSTA shelving system**. This modular system is designed for flexibility and adaptability, making it perfect for small to medium-sized spaces.\n\n**Key Features:**\n\n* **Adjustable Height:** The BJURSTA system allows for adjustable height settings, ensuring that you can customize the shelves to fit your specific needs.\n* **Easy-to-Reach Shelves:** The shelves are designed with easy access in mind, making it simple to retrieve items without straining or stretching.\n* **Versatile Storage:** The system accommodates items of varying sizes and weights, from books to decorative objects and office supplies or kitchenware.\n* **Modular Design:** The BJURSTA system is highly modular, allowing you to add or remove shelves as needed, making it an ideal solution for spaces with changing storage requirements.\n\n**Product Details:**\n\n* **Dimensions:** Each shelf measures 31.5\" wide x 11.8\" deep x 11.8\" high (80 cm x 30 cm x 30 cm).\n* **Weight Capacity:** Each shelf can hold up to 44 lbs (20 kg) of evenly distributed weight.\n* **Material:** Made from high-quality particleboard with a durable laminate finish.\n* **Color Options:** Available in three colors: White, Black-Brown, and Gray-Brown.\n\n**Price:**\n\n* Single shelf unit: $29.99\n* Double shelf unit: $49.99\n* Triple shelf unit: $69.99\n\n**Additional Recommendations:**\n\nTo complement the BJURSTA shelving system, I suggest considering the following accessories:\n\n* **MALM drawer units**: These can be added to the shelving system to provide additional storage for smaller items like office supplies or kitchen utensils.\n* **BJURSTA wall brackets**: These can be used to attach the shelving units to the wall, providing extra stability and keeping the floor clear.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.628820180892944,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T11:40:57.438100"
+    }
+  ]
+}

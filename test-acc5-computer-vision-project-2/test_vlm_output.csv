@@ -1,0 +1,419 @@
+path,question,true_answer,type_question,answer
+img/test/008.jpg,Where is the toilet positioned with respect to the room?,On the left side of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the toilet positioned with respect to the room?
+    Question Type: qualitative
+    "
+img/test/008.jpg,Where is the shower curtain positioned with respect to the toilet?,Next to the toilet,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the shower curtain positioned with respect to the toilet?
+    Question Type: qualitative
+    "
+img/test/008.jpg,Where is the sink positioned with respect to the room?,On the right side of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the sink positioned with respect to the room?
+    Question Type: qualitative
+    "
+img/test/008.jpg,Where is the bathtub positioned with respect to the sink?,Next to the sink,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the bathtub positioned with respect to the sink?
+    Question Type: qualitative
+    "
+img/test/008.jpg,Where is the handbag positioned with respect to the bathtub?,Near the bathtub,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the handbag positioned with respect to the bathtub?
+    Question Type: qualitative
+    "
+img/test/008.jpg,How far is the toilet from the sink?,3 feet,quantitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: How far is the toilet from the sink?
+    Question Type: quantitative
+    "
+img/test/008.jpg,How far is the bathtub from the toilet?,2 meters,quantitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: How far is the bathtub from the toilet?
+    Question Type: quantitative
+    "
+img/test/008.jpg,How far is the handbag from the bathtub?,1 foot,quantitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: How far is the handbag from the bathtub?
+    Question Type: quantitative
+    "
+img/test/indoor_0258.jpg,Where is the sink positioned with respect to the mirror?,Below the mirror,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the sink positioned with respect to the mirror?
+    Question Type: qualitative
+    "
+img/test/indoor_0258.jpg,Where is the toilet positioned with respect to the sink?,Next to the sink,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the toilet positioned with respect to the sink?
+    Question Type: qualitative
+    "
+img/test/indoor_0258.jpg,Where is the shower curtain positioned with respect to the sink?,On the left side of the sink,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the shower curtain positioned with respect to the sink?
+    Question Type: qualitative
+    "
+img/test/indoor_0258.jpg,How far is the shower curtain from the sink?,0.5 meters,quantitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: How far is the shower curtain from the sink?
+    Question Type: quantitative
+    "
+img/test/indoor_0258.jpg,Where is the floor positioned with respect to the toilet?,Beneath the toilet,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the floor positioned with respect to the toilet?
+    Question Type: qualitative
+    "
+img/test/indoor_0258.jpg,Where is the wall positioned with respect to the toilet?,Around the toilet,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the wall positioned with respect to the toilet?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the window positioned in the room?,The centerpiece of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the window positioned in the room?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where are the chairs positioned with respect to the window?,One near the left and one near the right,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where are the chairs positioned with respect to the window?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the coffee table positioned in the room?,In the middle of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the coffee table positioned in the room?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the vase positioned with respect to the coffee table?,On the coffee table,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the vase positioned with respect to the coffee table?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the book positioned with respect to the room?,On the right side of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the book positioned with respect to the room?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the TV positioned with respect to the right chair?,Mounted on the wall above the right chair,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the TV positioned with respect to the right chair?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the fireplace positioned with respect to the room?,On the right side of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the fireplace positioned with respect to the room?
+    Question Type: qualitative
+    "
+img/test/aa016553.jpg,Where is the lamp positioned with respect to the room?,On the left side of the room,qualitative,"
+    You will be provided an image and a question about the image.
+    You will also be told if the answer expected is a qualitative or quantitative answer.
+    Please provide an answer to the question. 
+
+    Example 1:
+    Question: ""How far is the yellow finger from the silver can?""
+    Expected Answer Type: Quantitative
+    Output: ""The yellow finger is one and a half meters away from the silver can""
+
+    Example 2:
+    Question: ""What is next to the blue sofa?""
+    Expected Answer Type: Qualitative
+    Output: ""The yellow chair is next to the blue sofa""
+
+    Your task: Provide an answer to the question. No greetings or comments. Just provide the answer.
+    Question: Where is the lamp positioned with respect to the room?
+    Question Type: qualitative
+    "

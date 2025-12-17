@@ -1,0 +1,9 @@
+Query,Strategy,Products Retrieved,Products Used,Response Length,Latency (s),Success,Product Names Used,Prompt Length
+I need storage solutions for a small bathroom,basic,0,0,1244,5.13,True,,772
+I need storage solutions for a small bathroom,multi_query,0,0,2055,7.62,True,,1187
+I need storage solutions for a small bathroom,hypothetical,0,0,2484,15.93,True,,3138
+I need storage solutions for a small bathroom,step_back,0,0,1786,9.08,True,,1155
+Looking for bedroom storage ideas,basic,0,0,2052,6.55,True,,760
+Looking for bedroom storage ideas,multi_query,0,0,2496,9.02,True,,1103
+Looking for bedroom storage ideas,hypothetical,0,0,1849,13.01,True,,2803
+Looking for bedroom storage ideas,step_back,0,0,2182,10.11,True,,1271

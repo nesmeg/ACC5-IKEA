@@ -1,0 +1,42 @@
+openai
+numpy
+pandas
+plotly
+scikit-learn
+sentence-transformers
+pymongo
+deepeval
+rich
+langchain
+
+# Core dependencies
+langchain
+openai
+pymongo
+python-dotenv
+pydantic
+langchain-community
+langchain-openai
+deepeval
+kaleido
+plotly
+wordcloud
+textblob
+seaborn
+xlsxwriter
+
+# Vector operations
+numpy
+sentence-transformers
+
+# Utilities
+python-json-logger
+coloredlogs
+tenacity
+
+# Development dependencies
+pytest
+pytest-cov
+black
+flake8
+mypy

@@ -1,0 +1,52 @@
+RAG Strategies Evaluation Summary
+========================================
+
+Total Questions Evaluated: 40
+
+Overall Performance by Strategy
+------------------------------
+
+basic:
+  Average Score: 0.300
+  Average Latency: 5.289 seconds
+
+hypothetical:
+  Average Score: 0.414
+  Average Latency: 7.105 seconds
+
+multi_query:
+  Average Score: 0.362
+  Average Latency: 6.626 seconds
+
+step_back:
+  Average Score: 0.302
+  Average Latency: 10.296 seconds
+
+
+Best Performing Strategy: hypothetical (Average Score: 0.414)
+
+Top Performing Strategies per Metric
+----------------------------------------
+answer_relevancy:
+  Best Strategy: multi_query
+  Average Score: 0.494
+
+faithfulness:
+  Best Strategy: multi_query
+  Average Score: 0.952
+
+contextual_relevancy:
+  Best Strategy: hypothetical
+  Average Score: 0.145
+
+bias:
+  Best Strategy: basic
+  Average Score: 0.391
+
+toxicity:
+  Best Strategy: hypothetical
+  Average Score: 0.062
+
+hallucination:
+  Best Strategy: hypothetical
+  Average Score: 0.980

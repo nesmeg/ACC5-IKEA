@@ -1,0 +1,228 @@
+{
+  "summary": {
+    "total_queries": 2,
+    "total_strategies": 4,
+    "timestamp": "2025-01-17T12:32:05.351903",
+    "performance": {
+      "strategy_metrics": {
+        "basic": {
+          "avg_latency": "6.44",
+          "avg_products_retrieved": "0.0",
+          "avg_products_used": "0.0",
+          "success_rate": "100.0%",
+          "total_queries": 2
+        },
+        "multi_query": {
+          "avg_latency": "6.82",
+          "avg_products_retrieved": "0.0",
+          "avg_products_used": "0.0",
+          "success_rate": "100.0%",
+          "total_queries": 2
+        },
+        "hypothetical": {
+          "avg_latency": "11.44",
+          "avg_products_retrieved": "0.0",
+          "avg_products_used": "0.0",
+          "success_rate": "100.0%",
+          "total_queries": 2
+        },
+        "step_back": {
+          "avg_latency": "9.46",
+          "avg_products_retrieved": "0.0",
+          "avg_products_used": "0.0",
+          "success_rate": "100.0%",
+          "total_queries": 2
+        }
+      },
+      "total_queries_processed": 8,
+      "unique_queries": 2,
+      "average_latency_overall": 8.540114611387253
+    }
+  },
+  "results": [
+    {
+      "strategy": "basic",
+      "query": "I need storage solutions for a small bathroom",
+      "response": " \nFor a small bathroom, we'll focus on space-saving and functional storage solutions. I recommend the following products:\n\n1. **MALM 3-Drawer Chest** (Price: $49.99)\nThis compact chest provides ample storage for toiletries, towels, and other bathroom essentials. Its slim design fits perfectly in tight spaces, making it ideal for small bathrooms. The MALM series is known for its sleek and modern look, which will complement any bathroom decor.\n\nDimensions: 24\" W x 18\" D x 30\" H\nMaterial: Particleboard with a melamine surface\nFeatures: Soft-close drawers, adjustable shelves\n\n2. **IVAR Shelving Unit** (Price: $29.99)\nThe IVAR shelving unit is an excellent addition to your bathroom storage needs. It's designed to be versatile and can be customized to fit your specific requirements. You can use it as a freestanding unit or attach it to the wall for added stability.\n\nDimensions: Adjustable height (max 72\")\nMaterial: Particleboard with a melamine surface\nFeatures: Adjustable shelves, wall-mounting option\n\n3. **FYNDIG Bathroom Cabinet** (Price: $49.99)\nThis compact cabinet provides additional storage for toiletries, towels, and other bathroom essentials. Its narrow design makes it perfect for small bathrooms where space is limited.\n\nDimensions: 12\" W x 18\" D x 30\" H\nMaterial: Particleboard with a melamine surface\nFeatures: Soft-close doors, adjustable shelves\n\n4. **BJURSTA Storage Ottoman** (Price: $29.99)\nThis storage ottoman is an excellent solution for storing linens, towels, or other bathroom essentials out of sight. Its compact size won't take up too much floor space.\n\nDimensions: 24\" W x 18\" D x 16\" H\nMaterial: Fabric-covered particleboard\nFeatures: Removable cushion top, storage compartment\n\nTo complete your bathroom storage setup, consider adding some accessories like the FYNDIG Hooks ($9.99) or the BJURSTA Towel Rack ($19.99).\n\nThese products will provide you with ample storage space while keeping your bathroom organized and clutter-free.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 6.503842830657959,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:03.532896"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "I need storage solutions for a small bathroom",
+      "response": " \n**Compact Bathroom Storage Units for Small Spaces:**\nFor a small bathroom, I recommend the **MALM 3-Drawer Chest** (Price: $49.99). This compact storage unit measures 30.7\" H x 23.6\" W x 17.3\" D and has three drawers with soft-close mechanisms, providing ample storage for toiletries and towels. Its slim design fits perfectly in tight spaces.\n\n**Alternative to Medicine Cabinets: Hidden Storage Solutions for Bathrooms**\nIf you're looking for a hidden storage solution, consider the **BJURSTA Storage Bench** (Price: $29.99). This bench features a hinged top that opens to reveal a spacious compartment, ideal for storing medications, linens, or other bathroom essentials. It measures 24.8\" L x 15.7\" W x 18.5\" H and has a water-resistant finish.\n\n**Wall-Mounted Bathroom Storage Shelves with 12x12 Inch Footprint and Waterproof Material**\nFor wall-mounted storage shelves, I suggest the **KVARTERSKLIPPER Shelf** (Price: $19.99). This shelf is designed with a waterproof material and has a compact footprint of 11.8\" L x 11.8\" W x 2.4\" D. It's perfect for storing toiletries, towels, or other bathroom essentials within easy reach.\n\nAdditional Recommendations:\nTo complement these products, consider the **FYNDIG Hooks** (Price: $9.99) for hanging towels or robes, and the **KVARNVIK Towel Rack** (Price: $14.99) for additional towel storage.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 5.489508152008057,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:09.022595"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "I need storage solutions for a small bathroom",
+      "response": "1. **MALM 3-Drawer Chest**: This product is a great option for storing linens, towels, and toiletries. It features three soft-close drawers with a total storage capacity of 12\" W x 18\" D x 30\" H. However, it's not wall-mounted and doesn't have adjustable shelves.\n\nPrice: $99.99 USD\n\n2. **BJURSTA Side Table**: This product can serve as a compact storage unit for small bathrooms. It has two drawers (6\" W x 6\" D each) and one shelf (12\" W x 12\" D). Although it's wall-mounted, its dimensions are smaller than the ideal product (24\" W x 12\" D x 60\" H).\n\nPrice: $69.99 USD\n\n3. **KVARTERSKLIPPER Bathroom Cabinet**: This cabinet offers ample storage space with two adjustable shelves (12\" W x 12\" D each) and two soft-close drawers (12\" W x 6\" D each). It's wall-mounted and has a sleek design, but its dimensions are slightly larger than the ideal product.\n\nPrice: $199.99 USD\n\n4. **HEMMA Storage System**: This product matches your ideal description perfectly, offering two adjustable shelves, two soft-close drawers, and one large storage compartment behind the back panel.\n\nPrice: $149.99 USD\n\nBased on your requirements, I recommend the **HEMMA Storage System** as the top choice due to its compact size, modular design, and adjustable storage options.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 10.515470743179321,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:19.538193"
+    },
+    {
+      "strategy": "step_back",
+      "query": "I need storage solutions for a small bathroom",
+      "response": "**Storage Solutions for a Small Bathroom:**\n\nGiven the compact layout and limited square footage, we'll focus on space-saving storage solutions that maximize vertical space and keep the floor clear. Here are my top recommendations:\n\n1. **MALM 3-Drawer Chest** ( approx. $100-$150):\n\t* Dimensions: 30\" W x 18\" D x 30\" H\n\t* Perfect for storing toiletries, towels, and other bathroom essentials\n\t* Three drawers provide ample storage without taking up too much floor space\n2. **IVAR Shelving Unit** (approx. $50-$70):\n\t* Dimensions: 24\" W x 12\" D x 60\" H\n\t* Adjustable shelves allow you to customize storage for various items, such as toiletries, towels, or cleaning supplies\n\t* Wall-mounted design keeps the floor clear and creates a sense of openness\n3. **KALLAX Shelving Unit** (approx. $80-$120):\n\t* Dimensions: 31\" W x 15\" D x 63\" H\n\t* Offers additional storage for linens, out-of-season decorations, or infrequently used items\n\t* Compact design fits snugly into corners or against walls\n\nTo address lighting concerns:\n4. **LYSPÄTTER LED Strip Lighting** (approx. $20-$30):\n\t* Provides task lighting around the sink area for improved visibility and ambiance\n\t* Energy-efficient LED technology saves energy and lasts longer than traditional bulbs\n\nAdditional suggestions to optimize your small bathroom's functionality:\n\n5. **BILLY Bookcase** (approx. $50-$70):\n\t* Dimensions: 31\" W x 12\" D x 63\" H\n\t* Can be used to store books, decorative items, or even additional storage bins\n6. **KVARTERSKLIPPER Towel Rack** (approx. $10-$20):\n\t* A compact towel rack that keeps towels organized and within reach\n\nThese recommendations should help you create a functional and efficient small bathroom with ample storage and optimal lighting.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.33283519744873,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:28.871234"
+    },
+    {
+      "strategy": "basic",
+      "query": "Looking for bedroom storage ideas",
+      "response": " \nFor a bedroom storage solution, I recommend considering the MALM series. This collection offers a wide range of storage options to suit various needs and preferences. Here are some specific products from the MALM series that you may find useful:\n\n1. **MALM 6-Drawer Dresser**: This dresser is an excellent choice for storing clothing and personal items. It features six spacious drawers with soft-close drawer glides for smooth operation. The dimensions are 63.5 inches wide, 19 inches deep, and 31.5 inches tall (161 cm x 48 cm x 80 cm). The price is $299.\n   - Benefits: Ample storage space, soft-close drawers, and a sturdy design.\n\n2. **MALM Storage Bed Frame**: If you're looking for a bed frame with built-in storage, this is an ideal option. It has two large drawers at the foot of the bed for storing linens, out-of-season clothing, or other bedroom essentials. The dimensions are 83 inches wide, 39 inches deep, and 43 inches tall (211 cm x 99 cm x 109 cm). The price is $399.\n   - Benefits: Built-in storage, sturdy design, and easy assembly.\n\n3. **MALM Nightstand**: For additional bedside storage, consider the MALM Nightstand. It features two drawers and a shelf for keeping your nightstand organized. The dimensions are 24 inches wide, 18 inches deep, and 23 inches tall (61 cm x 46 cm x 58 cm). The price is $49.\n   - Benefits: Compact design, easy assembly, and ample storage space.\n\n4. **KALLAX Shelving Unit**: If you need more vertical storage space in your bedroom, consider the KALLAX Shelving Unit. It's available in various configurations to fit your specific needs. The dimensions vary depending on the configuration chosen (e.g., width: up to 71 inches / 180 cm; depth: up to 15 inches / 38 cm; height: up to 71 inches / 180 cm). Prices start at $99.\n   - Benefits: Versatile design, adjustable shelves, and customizable size options.\n\nTo complement these products and enhance your bedroom's overall aesthetic, consider adding some decorative items like vases or wall art from IKEA's home decor collection.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 6.372357130050659,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Basic RAG",
+        "strategy_description": "Direct product matching based on query",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": true,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:35.243720"
+    },
+    {
+      "strategy": "multi_query",
+      "query": "Looking for bedroom storage ideas",
+      "response": " \n**For \"Bedroom storage solutions with drawers and shelves\"**\n\n1. **MALM 6-Drawer Dresser**: A versatile and affordable option for storing clothes, linens, and personal items. It features six spacious drawers with soft-close drawer glides and a sturdy frame made of solid wood or engineered wood. Dimensions: 63.5\" H x 39.4\" W x 18.7\" D. Price: $299-$399.\n2. **HEMNES 3-Drawer Chest**: A stylish and functional piece that offers ample storage for folded clothes, accessories, or linens. Its three drawers have soft-close mechanisms and a compact design suitable for small bedrooms. Dimensions: 30.7\" H x 35.4\" W x 17.3\" D. Price: $199-$299.\n\n**For \"Alternative to dressers: closet organizers and armoires for small bedrooms\"**\n\n1. **PAX Wardrobe System**: A customizable closet organizer system that can be tailored to fit your specific needs, including shelves, drawers, and hanging rods. It's ideal for small bedrooms with limited space. Dimensions vary depending on configuration (average dimensions: 72\" H x 24\" W x 12\" D). Price: $499-$999.\n2. **KALLAX Shelving Unit**: A space-saving shelving system perfect for storing folded clothes, linens, or accessories in a compact bedroom. It features adjustable shelves and a sleek design that can be easily assembled and rearranged as needed. Dimensions: 71.7\" H x 31.5\" W x 15.7\" D (expandable). Price: $99-$199.\n\n**For \"Storage beds with built-in nightstands and USB ports\"**\n\n1. **STUVA Storage Bed Frame**: A practical bed frame with built-in storage drawers and USB ports for charging devices while keeping your bedroom clutter-free. The frame is available in various sizes (Twin to King) and has a sturdy design made of solid wood or engineered wood. Dimensions vary depending on size (average dimensions: 60\"-80\"H x 40\"-60\"W x 10\"-20\"D). Price: $499-$999.\n2. **KVARTERSKLIPPER Storage Bed Frame**: A modern bed frame featuring built-in nightstands with USB ports, perfect for small bedrooms with limited floor space. The frame has a compact design and can be customized to fit different mattress sizes (Twin to Queen). Dimensions: 55\"-75\"H x 35\"-55\"W x 10\"-20\"D (depending on size). Price: $399-$699.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 8.146471738815308,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Multi-Query RAG",
+        "strategy_description": "Explores different aspects of product requirements",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 2,
+          "use_hybrid": true,
+          "text_weight": 0.4
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:43.390266"
+    },
+    {
+      "strategy": "hypothetical",
+      "query": "Looking for bedroom storage ideas",
+      "response": "1. **MALM 6-Drawer Dresser**: This product is a great option for storage, but it doesn't offer the same level of customization as the Södra. It's a more traditional dresser with fixed drawers and no adjustable shelves.\n\n2. **HEMNES 3-Drawer Chest**: Although this product has a similar drawer depth to the Södra, it lacks the adjustable shelves and built-in hanging rod. It's also not as eco-friendly as the Södra.\n\n3. **BJURSTA Nightstand**: This nightstand offers some storage capacity, but it's not designed to be a comprehensive bedroom storage system like the Södra.\n\n4. **IVAR Shelving Unit**: While this shelving unit is versatile and can be customized, it doesn't have drawers or a built-in hanging rod, which are key features in your ideal product.\n\n5. **MICKE Storage Bed Frame**: This bed frame has some storage capacity under the bed, but it's not designed to be a standalone storage system like the Södra.\n\nConsidering your requirements, I recommend the following products:\n\n* **SÖDERHAMN Storage Bed Frame**: This product offers a similar design aesthetic to the Södra and includes storage drawers and shelves. However, it's more expensive (MSRP: $499.99 USD) and has a slightly different configuration.\n* **KVARTERSKLIPPER Storage Cabinet**: This cabinet provides ample storage space and adjustable shelves, but it's not designed specifically for bedroom use and lacks the soft-close drawers of the Södra.\n* **FYNDIG Storage Ottoman**: This ottoman offers additional seating and storage, but it's not a comprehensive bedroom storage system like the Södra.\n\nBased on your requirements, I would recommend purchasing multiple units of each of these products to create a customized bedroom storage system that meets your needs.\n\n**Recommended Products:**\n\n* 1 x SÖDERHAMN Storage Bed Frame ($499.99 USD)\n* 1 x KVARTERSKLIPPER Storage Cabinet ($299.99 USD)\n* 1 x FYNDIG Storage Ottoman ($149.99 USD)\n\nThese products will provide you with ample storage space, adjustable shelves, soft-close drawers, and a stylish design that complements your bedroom decor.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 12.367362022399902,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Hypothetical RAG",
+        "strategy_description": "Creates ideal product then matches real options",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 3,
+          "use_hybrid": false,
+          "text_weight": 0.3
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:31:55.757931"
+    },
+    {
+      "strategy": "step_back",
+      "query": "Looking for bedroom storage ideas",
+      "response": "**Storage Solutions for a 100-150 sq. ft. Bedroom**\n\nConsidering the standard size range and double bed as the central focal point, I recommend the following storage solutions to maximize space efficiency:\n\n1. **MALM 6-Drawer Dresser (White, $299)**: This dresser provides ample storage for clothing and personal items while keeping the floor clear. Its compact design fits well in a smaller bedroom, with dimensions of 60\" H x 31.5\" W x 18\" D.\n2. **HEMNES Nightstand (White, $99)**: A matching nightstand will complement the MALM dresser and provide additional storage for bedside essentials like books, lamps, or personal items. Its dimensions are 23.6\" H x 15.7\" W x 15.7\" D.\n3. **KVARTERSKLIPPER Storage Bench (White, $49)**: This storage bench can be placed at the foot of the bed or against a wall to store out-of-season clothing, linens, or luggage. Its dimensions are 17.3\" H x 47.2\" W x 17.3\" D.\n4. **BJURSTA Side Table (White, $29)**: This side table can be used as a nightstand or additional surface for lamps, decorative items, or a reading light. Its dimensions are 20\" H x 15\" W x 15\" D.\n\n**Lighting Considerations**\n\nGiven the limited artificial lighting options at night, I recommend using table lamps or floor lamps to supplement natural light during evening hours.\n\n* **LYSPÄTTER Table Lamp (White, $29)**: A simple and compact table lamp that provides soft ambient light.\n* **FYNDIG Floor Lamp (White, $49)**: A slim and adjustable floor lamp that can be directed towards your reading area.\n\n**Additional Tips**\n\nTo optimize space efficiency:\n* Use wall-mounted shelves or hooks to hang items like jackets, bags, or accessories.\n* Consider using under-bed storage bins or drawers to store out-of-season clothing or linens.\n* Keep surfaces clear by storing items in closed containers or baskets.\n\n",
+      "num_products_retrieved": 0,
+      "num_products_used": 0,
+      "latency": 9.593069076538086,
+      "error": null,
+      "metadata": {
+        "strategy_name": "Step-Back RAG",
+        "strategy_description": "Considers broader context of needs",
+        "num_context_docs": 0,
+        "num_used_docs": 0,
+        "search_config": {
+          "k": 4,
+          "use_hybrid": true,
+          "text_weight": 0.5
+        }
+      },
+      "context": [],
+      "used_context": [],
+      "timestamp": "2025-01-17T12:32:05.351300"
+    }
+  ]
+}

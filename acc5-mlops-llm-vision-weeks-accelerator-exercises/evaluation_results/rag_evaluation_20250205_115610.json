@@ -1,0 +1,92 @@
+[
+  {
+    "query": "I need storage solutions for a small bathroom",
+    "response": " 1. ENHET (Item No: 19547279)\n                - Product Type: Bathroom\n                - Price: $446.99\n                - Measurements: 61 cm (24 inches) in height\n                - Benefits Summary: Combines a shallow wash-stand with open and closed storage, perfect for small bathrooms.\n                - Benefits: None listed, but it's a great option for maximizing storage in a small space.\n             2. JONAXEL (Item No: 50419972)\n                - Product Type: Shelf Unit\n                - Price: $49.99\n                - Measurements: 80x38x160 cm (31.5x15x63 inches) in height, width, and length\n                - Benefits Summary: A versatile storage solution that can be used in humid bathrooms and laundry rooms, helping to keep things neat and tidy.\n                - Benefits: None listed, but it's a great option for adding storage and organization to a small bathroom.\n             3. R\u00c5NEN (Item No: 527078)\n                - Product Type: Basket\n                - Price: $2.99\n                - Measurements: Not specified (likely due to its compact size)\n                - Benefits Summary: A practical storage solution for bathroom essentials, keeping them dry and fresh.\n                - Benefits: None listed, but it's a great option for storing small items in a small bathroom.\n\n            Considering your need for storage solutions in a small bathroom, I would recommend the ENHET (Item No: 19547279) as a top priority. Its shallow design and combination of open and closed storage make it an ideal choice for small spaces. However, if you're looking for a more affordable option, the JONAXEL (Item No: 50419972) is a great alternative, offering a versatile storage solution that can be used in various areas of your bathroom. The R\u00c5NEN (Item No: 527078) basket is a great option for storing small items, but its size and functionality may not be as impactful as the other two options.\n\n            Let me know if you want to explore other products.",
+    "metrics": {
+      "answer_relevancy": {
+        "score": 0.5625,
+        "reason": "The score is 0.56 because the actual output is highly relevant to the input, providing suitable storage solutions for a small bathroom, but could be more concise and directly address the user's need without including any unnecessary information."
+      },
+      "faithfulness": {
+        "score": 0.9090909090909091,
+        "reason": "The score is 0.91 because the actual output deviates from the retrieval context by mentioning additional features of ENHET, such as combining a shallow wash-stand with open and closed storage, and downplaying the impact of R\u00c5NEN's basket size and functionality."
+      },
+      "contextual_relevancy": {
+        "score": 0.5384615384615384,
+        "reason": "The score is 0.54 because the retrieval context contained irrelevant information such as 'With a beautiful reflection on the mirror...' and 'Made of durable plastic', while also containing some relevant information like 'JONAXEL storage solution lets you use the space in smarter ways.' and 'Practical storage for those important bathroom essentials that tend to clutter up, especially if the family is big.'"
+      },
+      "bias": {
+        "score": 0.0,
+        "reason": "The score is 0.00 because the actual output is completely unbiased, as there are no identified biases in the provided reasons."
+      },
+      "toxicity": {
+        "score": 0.0,
+        "reason": "The score is 0.00 because the actual output is completely neutral and does not contain any toxic language."
+      },
+      "hallucination": {
+        "score": 0.0,
+        "reason": "Evaluation error"
+      }
+    }
+  },
+  {
+    "query": "Looking for a comfortable office chair under $400",
+    "response": " - Product 10367461 (ALEFJ\u00c4LL) is an excellent choice with a price of $399.99. It features a well-shaped backrest with adjustable lumbar support and soft full grain leather that breathes. This ergonomic office chair also comes with a 10-year guarantee. The benefits of this product include improved comfort and focus, making it an ideal option for long working hours.\n             - Product 70521855 (J\u00c4RVFJ\u00c4LLET) is another great option with a price of $369.99. It offers a well-shaped backrest with adjustable lumbar support and airy mesh that keeps your body cool. This product also comes with a 10-year guarantee, providing long-lasting comfort and support.\n             - Product 90538968 (HATTEFJ\u00c4LL) is a premium option with a price of $419.99. It features a well-shaped backrest with adjustable lumbar support and soft full grain leather that breathes. This ergonomic office chair also comes with a 10-year guarantee, making it a great choice for those who want a high-quality product.\n\n            All three products are under $400 and cater to your need for a comfortable office chair. Considering the benefits, prices, and features of each product, I would recommend the ALEFJ\u00c4LL (Product 10367461) as the top choice due to its excellent price-to-feature ratio and the soft full grain leather that provides ultimate comfort.\n\n            Let me know if you want to explore other products.",
+    "metrics": {
+      "answer_relevancy": {
+        "score": 0.9166666666666666,
+        "reason": "The score is 0.92 because the actual output partially addresses the input by providing relevant information, but also includes an irrelevant statement recommending a product that does not directly cater to the specified budget constraint."
+      },
+      "faithfulness": {
+        "score": 0.8666666666666667,
+        "reason": "The score is 0.87 because the actual output contradicts the retrieval context by overstating the price-to-feature ratio and comfort of Product 10367461 (ALEFJ\u00c4LL), claiming it has the best ratio and ultimate comfort, when the retrieval context only provides partial information supporting these claims."
+      },
+      "contextual_relevancy": {
+        "score": 0.5,
+        "reason": "The score is 0.50 because the retrieval context fails to specifically mention the price constraint and the product's features relevant to comfort, instead mentioning prices that are either above the budget or too general to be relevant."
+      },
+      "bias": {
+        "score": 0.14285714285714285,
+        "reason": "The score is 0.14 because The opinion 'the soft full grain leather that provides ultimate comfort' reveals a geographical bias, assuming that the mentioned feature is universally desirable."
+      },
+      "toxicity": {
+        "score": 0.0,
+        "reason": "The score is 0.00 because the actual output is not toxic at all, and it's great that it's completely neutral and respectful."
+      },
+      "hallucination": {
+        "score": 0.0,
+        "reason": "Evaluation error"
+      }
+    }
+  },
+  {
+    "query": "What are some good options for a small kitchen table?",
+    "response": "\n\n\n            For a small kitchen table, I recommend considering the 'HAUGA' table (item_no: 576709). This table is specifically designed for 4 people and has a traditional wooden look that will add character to your dining area. It's a great option to pair with the HAUGA chairs and storage for a coordinated solution in both style and function. The measurements for this table are 118x74 cm (46 1/2x29 1/8 \") and it's priced at $119.99. This product has a score of 0.767026424407959, indicating its high quality and suitability for your needs.\n\n            Another option to consider is the 'DANDERYD / INGOLF' dining set (item_no: 9478399), which includes a table and 2 chairs. This product is designed for a small kitchen or as an accent in a large room. The table has a beautiful wood grain pattern and can be easily extended to accommodate 4 people. The measurements for this set are 74/134x80 cm (29 1/8/52 3/4x31 1/2 \") and it's priced at $439.99. This product has a score of 0.7672426104545593, indicating its high quality and suitability for your needs.\n\n            If you're looking for a more affordable option, you may also consider the 'DANDERYD' dining table (item_no: 568728). This table is designed for 6 people and has a durable surface in lacquered MDF and softly shaped steel legs. The measurements for this table are 180x90 cm (70 7/8x35 3/8 \") and it's priced at $229.0. This product has a score of 0.7624602317810059, indicating its high quality and suitability for your needs.\n\n            Let me know if you want to explore other products.",
+    "metrics": {
+      "answer_relevancy": {
+        "score": 0.0,
+        "reason": "Evaluation error"
+      },
+      "faithfulness": {
+        "score": 0.0,
+        "reason": "Evaluation error"
+      },
+      "contextual_relevancy": {
+        "score": 0.42857142857142855,
+        "reason": "The score is 0.43 because the retrieval context mentions suitable options for small kitchens, but lacks specific details about size and type, which are key considerations for a small kitchen table, as seen in statements like 'A perfect dining set for a small kitchen or as an accent in a large room.' and 'The table is 118x74 cm in size.' However, the context also contains irrelevant information, such as 'This wood table with beautiful grain patterns will fit in any interior.' which does not relate to the size or type of table."
+      },
+      "bias": {
+        "score": 0.0,
+        "reason": "The score is 0.00 because the actual output is completely unbiased, as there are no identified reasons for bias in the provided list."
+      },
+      "toxicity": {
+        "score": 0.0,
+        "reason": "The score is 0.00 because the actual output is not toxic at all, with no instances of toxic language found."
+      },
+      "hallucination": {
+        "score": 0.0,
+        "reason": "Evaluation error"
+      }
+    }
+  }
+]

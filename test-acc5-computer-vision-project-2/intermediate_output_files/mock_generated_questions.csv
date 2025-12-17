@@ -1,0 +1,27 @@
+path,description,question,completed
+../img/bedroom/bedroom1.jpg,"The blue chair is directly to the left of the desk, and the plant is sitting on top of it.","Is the plant located directly on top of the blue chair? 
+",True
+../img/bedroom/bedroom2.jpg,"The clock is mounted on the wall above the whiteboard, and the chair is beneath it.",How high is the clock mounted on the wall above the whiteboard?,True
+../img/bedroom/bedroom3.jpg,"The red ball is on the ground, and the green ball is placed above it on the shelf.","How high is the green ball positioned relative to the red ball? 
+",True
+../img/living_room/living_room1.jpg,"The car is parked on the left side of the street, and the tree is to the right of the car.","Is the car parked to the left of the tree? 
+",True
+../img/living_room/living_room2.jpg,"The lamp is to the right of the couch, while the TV is located directly across from the couch.",What is the relative position of the lamp to the couch?,True
+../img/living_room/living_room3.jpg,"The bicycle is leaning against the tree, and the helmet is placed on top of the bicycle seat.","""Where is the helmet located in relation to the bicycle and the tree?""",True
+../img/kitchen/kitchen1.jpg,"The orange vase is located in the corner of the room, and a large sofa is placed in front of it.",What color is the sofa in the room with the orange vase in the corner?,True
+../img/kitchen/kitchen2.jpg,There is a sign on the door indicating ‘Welcome’ and a mat placed directly in front of it.,How far is the welcome sign from the doormat? ,True
+../img/kitchen/kitchen3.jpg,"There is a stack of books on the left side of the desk, and a cup of tea is placed next to them.","Is the stack of books located to the left of the cup of tea on the desk? 
+",True
+../img/bathroom/bathroom1.jpg,"The lamp is located on the far side of the table, and the book is resting on the near side.",What is the relative position of the lamp and the book in relation to the table? ,True
+../img/bathroom/bathroom2.jpg,"The desk measures 1.5 meters in length, and the chair is positioned 0.8 meters from the desk.",What is the distance between the chair and the desk?,True
+../img/bathroom/bathroom3.jpg,"The refrigerator stands 1.8 meters tall, and the counter is 2.5 meters wide.",How tall is the refrigerator compared to the counter?,True
+../img/office/office1.jpg,"The shelf is 2 meters long, and the books occupy 1.2 meters of it.",How much space is left on the shelf?,True
+../img/office/office2.jpg,"The green ball has a diameter of 15 cm, and the red ball has a diameter of 10 cm.","What is the difference in diameter between the green ball and the red ball? 
+",True
+../img/office/office3.jpg,The painting on the wall measures 1.2 meters by 0.8 meters.,What is the area of the painting on the wall?,True
+../img/garden/garden1.jpg,"The length of the sofa is 2.3 meters, and the width of the rug is 1.5 meters.",What is the combined area of the sofa and the rug?,True
+../img/garden/garden2.jpg,"The blue pillow is 40 cm wide, and the red pillow is 35 cm wide.",What is the difference in width between the blue pillow and the red pillow?,True
+../img/garden/garden3.jpg,"The kitchen table is 1 meter away from the window, and the sink is 1.5 meters from the table.",How far is the sink from the window?,True
+../img/bedroom/bedroom4.jpg,"The bookshelf is 1.8 meters tall, and the top shelf is positioned 1.5 meters off the ground.",How high is the bottom shelf of the bookshelf?,True
+../img/living_room/living_room4.jpg,"The door is 2 meters wide, and the mat in front of it is 1 meter long.","How long is the door mat relative to the door's width? 
+",True

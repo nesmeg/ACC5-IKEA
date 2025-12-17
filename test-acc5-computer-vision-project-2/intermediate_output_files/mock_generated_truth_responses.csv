@@ -1,0 +1,11 @@
+path,question,response_truth,response_generated
+"path/to/image1.jpg","How far is the bookshelf from the bed?","The bookshelf is approximately 3 meters away from the bed.","The bookshelf is 2.5 meters from the window and 3.5 meters from the bed."
+"path/to/image2.jpg","How tall is the lamp?","The lamp is 1.8 meters tall.","The lamp is about 1.6 meters tall, a bit shorter than the cabinet."
+"path/to/image3.jpg","What is the width of the door?","The door is 90 cm wide.","The door is about 85 cm wide, not including the frame."
+"path/to/image4.jpg","How high is the ceiling?","The ceiling is 2.5 meters high.","The ceiling is slightly above 2.6 meters in height."
+"path/to/image5.jpg","How far is the dining table from the kitchen?","The dining table is about 4 meters from the kitchen.","The dining table is 3.8 meters from the kitchen, but the chairs are about 2 meters away."
+"path/to/image6.jpg","What is the height of the counter?","The counter is 1.2 meters tall.","The counter height is about 1.1 meters."
+"path/to/image7.jpg","How wide is the hallway?","The hallway is 1.3 meters wide.","The hallway is approximately 1.5 meters wide."
+"path/to/image8.jpg","What is the distance between the lamp and the TV?","The lamp is 2 meters away from the TV.","The lamp is located 1.8 meters from the TV, slightly closer."
+"path/to/image9.jpg","How long is the sofa?","The sofa is 2.5 meters long.","The sofa is 2 meters long."
+"path/to/image10.jpg","How wide is the window?","The window is 1.5 meters wide.","The window is about 1.7 meters wide."
